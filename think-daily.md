@@ -98,10 +98,7 @@ Double check all the images again (you can use bridge, mac file browser or PS fi
 
 Now we’re ready to upload!
 
-Here are 3 links to help with the upload process & verifying everything is working. 
-http://www.larryjanesky.com/admin/upload_images.php - uploading images
-http://www.larryjanesky.com/admin/headers.php - checking TD images
-http://www.larryjanesky.com/admin/bheaders.php - checking TDB images
+ 
 
 Open all 3 links to make life easier. 
 The uploader is...a little..finicky so try not to miss a step or, you guessed it, you have to get Josh to fix things.
