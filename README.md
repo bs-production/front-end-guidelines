@@ -2,5 +2,9 @@
 
 Below are links to some of our guidelines on a few topics. This is just a start!
 
+##Code
+[Javascript](javascript.md)
 
-#New
+##Design
+[Images](images.md)
+[Fonts](fonts.md)
