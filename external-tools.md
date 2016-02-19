@@ -5,13 +5,6 @@
 - [Crazy Egg](http://www.crazyegg.com/v2/snapshots) - Heatmaps
 - [AutoPrefixer](https://autoprefixer.github.io/) - Add the desired vendor prefixes and remove unnecessary in your CSS
 
-
-
-## Text Editors
-
-Sublime Text 
-Atom 
-
 ## Chrome Extensions 
 - [Check My Links](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf) - Scan one page for any broken links
 - [Linkclump](https://chrome.google.com/webstore/detail/linkclump/lfpjkncokllnfokkgpkobnkbkmelfefj)  - Lets you open, copy or bookmark multiple links at the same time.
@@ -34,3 +27,11 @@ Atom
 
 -  [Coolors](https://coolors.co/app/) - Easy to use. Completely random color palettes.
 -  [ColorHunt](http://colorhunt.co/) - User created schemes
+
+
+#Backup 
+
+-  [Sitesucker](http://ricks-apps.com/osx/sitesucker/) - Mac
+
+## Link Checker 
+- [Sitesucker](http://ricks-apps.com/osx/sitesucker/) - Intergrity
