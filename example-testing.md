@@ -9,3 +9,15 @@ Sample Testing Code
     ?>
 
 ```
+
+
+## Setting up New Templates 
+
+```php
+ <?php
+if (!empty($_GET['test']) and $_GET['test'] == 1) {
+    $customTemplateId = 11;
+}
+?>
+
+```
