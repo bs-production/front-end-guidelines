@@ -32,3 +32,6 @@ Below are links to some of our guidelines on a few topics. This is just a start!
 
 ## Tools 
 [External Tools](external-tools.md)
+
+#Testing
+[Example Testing](example-testing.md)
