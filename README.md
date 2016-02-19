@@ -15,6 +15,8 @@ Below are links to some of our guidelines on a few topics. This is just a start!
 
 ##Design
 
+[Site Templates](site-templates.md)
+
 [Images](images.md)
 
 [Main Messages](main-message.md)
@@ -23,6 +25,8 @@ Below are links to some of our guidelines on a few topics. This is just a start!
 
 ##Site Building
 [Site Build](site-build.md)
+
+[Google Stuff](google-stuff.md)
 
 [Backing Up and Redirecting](backup-redirecting.md)
 
