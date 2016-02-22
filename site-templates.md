@@ -43,7 +43,7 @@ For NEW templates made BEFORE 2/18/15:
     }
     /******************************************/
     /***** Content Section - Add this: *****/
-    div#content-wrap #gmap-wrap {
+    #content-wrap #gmap-wrap {
         width: 300px;
         height: 300px;
         margin: 0px 0px 30px 30px;
