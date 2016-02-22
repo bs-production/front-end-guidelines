@@ -32,10 +32,10 @@ For NEW templates made BEFORE 2/18/15:
         background: url('/core/images/templates/')no-repeat center;
         background-size: contain;
     }
-    #gmap-wrap {
+    #service-area #gmap-wrap {
         width: 350px;
         height: 350px;
-        margin: 30px 0px;
+        margin: 30px auto;
     }
     #service-area #gmap-wrap > div {
         border-radius: 50%;
@@ -44,8 +44,10 @@ For NEW templates made BEFORE 2/18/15:
     /******************************************/
     /***** Content Section - Add this: *****/
     div#content-wrap #gmap-wrap {
-    margin: 0px 0px 30px 30px;
-    float:right;
+        width: 300px;
+        height: 300px;
+        margin: 0px 0px 30px 30px;
+        float:right;
     }
     /******************************************/
     /***** Add this to mobile section - @media screen and (max-width: 640px) *****/
