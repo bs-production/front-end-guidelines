@@ -72,8 +72,6 @@ Ok I know I said that I wasn’t going to bother with the design part, true! But
 - Size your image correctly, Ex. you can’t have a logo sized originally to 600px and try to reduce it manually (width & height) or with CSS.
 - In the end you’re responsible for the site you’ve built! You need to thoroughly check the site and fix or flag anything that is not right.
 - Check the links to the images moved over from the old site, it might just have been copied over. You’ll need to upload the image and updated the link.
-- It’s also advised that you minify your CSS files (Template CSS and Screen CSS) to reduce the site loads.
-- http://csscompressor.com/ is great tool; you may go with ‘Standard’ for readability and to make future changes easier.
 
 Site completion!
 The site is complete and approved. It’s time to turn the site live!
