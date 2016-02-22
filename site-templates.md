@@ -35,7 +35,7 @@ For NEW templates made BEFORE 2/18/15:
     #gmap-wrap {
         width: 350px;
         height: 350px;
-        margin: 30px 0px;
+        margin: 30px auto;
     }
     #service-area #gmap-wrap > div {
         border-radius: 50%;
