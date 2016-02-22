@@ -11,7 +11,7 @@
 
 ## Image Compression
 
--[TinyPing](https://tinypng.com/) - Run PNGs through this! 
+- [TinyPing](https://tinypng.com/) - Run PNGs through this! 
 
 ## Background & Texture Generators
 
