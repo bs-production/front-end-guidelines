@@ -34,4 +34,5 @@
 -  [Sitesucker](http://ricks-apps.com/osx/sitesucker/) - Mac
 
 ## Link Checker 
-- [Sitesucker](http://ricks-apps.com/osx/sitesucker/) - Intergrity
+
+- [Intergrity](http://peacockmedia.software/mac/integrity/)
