@@ -32,6 +32,8 @@ Below are links to some of our guidelines on a few topics. This is just a start!
 
 [Backing Up and Redirecting](backup-redirecting.md)
 
+[Widgets](widget.md)
+
 ## Tools 
 [External Tools](external-tools.md)
 
