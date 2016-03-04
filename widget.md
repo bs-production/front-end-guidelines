@@ -1,7 +1,5 @@
 # Widget Guide - Production Edition
-
-
-###Page Modules 
+##Page Modules 
 
 
 **About Us Links**
@@ -20,15 +18,15 @@
 
 **Case Studies** 
 
-**City Page** 
+**City Page** - The key to everything. Make sure this module is always on a service area to make sure it works right. 
 
 **Contact Page** 
 
 **Crew Review** 
 
-**Custom Code** 
+**Custom Code** - Use this to add any special php or JS to your page. Using this will allow people to switch back to non-code view. 
 
-**Custom File** 
+**Custom File** - Have a special file you want to reference link it up with this. 
 
 **Customer Feedbacks** 
 
@@ -72,7 +70,7 @@
 
 **Service Area** 
 
-**Sitemap** 
+**Sitemap** - Should be on everysite under Sitemap.html. This will generate a sitemap in all its proper form. 
 
 **Technical Papers** 
 
