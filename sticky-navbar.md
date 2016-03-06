@@ -2,7 +2,7 @@
 
 Here's some code to create a Sticky Navbar.
 
-<script type="text/javascript">
+<script>
     $(document).ready(function() {
       $(window).bind('scroll', function () {
           if ($(window).scrollTop() > 140) { // Match number to height of header
