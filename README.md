@@ -42,4 +42,5 @@ Below are links to some of our guidelines on a few topics. This is just a start!
 
 #Snippets 
 [PHP Snippets](php-code-snippets.md)
+
 [Sticky Nav](sticky-navbar.md)
