@@ -13,3 +13,10 @@ Here's some code to create a Sticky Navbar.
       });
     });
     </script>
+    
+Add CSS class to style sheet only.
+
+    .fixed {
+    position: fixed;
+    top: 0;
+    }
