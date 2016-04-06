@@ -1,20 +1,6 @@
 # Custom Forms
 
-Need a little extra Juice for your Free Estimate pages? Note the hidden input as well as the name attribute for the form elements. Anything 
 
-```html
- 
-<input type="hidden" value="How did you hear about us?" name="custom_field_1_name" />
- <div class="servicetype">
- <label for="custom_field_1">How did you hear about us?</label>
- <select class="required" name="custom_field_1">
- <option value="" selected="selected">Please Select...</option>
-  <option>Ads (Online)</option>
-  <option>Angie's List</option>
-  <option>Other</option>
- </select>
- </div>
-```
 
  Place the following above a HTML form.
 
@@ -46,3 +32,23 @@ For example, '<input name="form_logger_first_name" />'
       <input name="form_logger_first_name" />
       <label>First Name</label>
     </form>
+
+
+
+## Standard Free Estimate 
+
+Need a little extra Juice for your Free Estimate pages? Note the hidden input as well as the name attribute for the form elements. Anything 
+
+```html
+ 
+<input type="hidden" value="How did you hear about us?" name="custom_field_1_name" />
+ <div class="servicetype">
+ <label for="custom_field_1">How did you hear about us?</label>
+ <select class="required" name="custom_field_1">
+ <option value="" selected="selected">Please Select...</option>
+  <option>Ads (Online)</option>
+  <option>Angie's List</option>
+  <option>Other</option>
+ </select>
+ </div>
+```
