@@ -34,12 +34,10 @@ If you add the below code right before the closing body tag. It will make all yo
                   links[i].href += '?test=1';
                 }
       </script>
-      ```
-      
-      ```
+```
       
       
-      
+     
 ### Before and After - Fake Widget
 
 ```php
