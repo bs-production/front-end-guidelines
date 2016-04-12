@@ -1,6 +1,6 @@
 # Site Flipping Process
 
-- [ ]   Upload Logo to Logo Management   (Logo management in portal must .eps file)
+* [ ] Upload Logo to Logo Management   (Logo management in portal must .eps file)
 
 - [ ] Run links/spell check - (Use CMS and Other Link checker tools)
 
