@@ -33,3 +33,7 @@ Z:\Working Files\Web Design\Refs\site-flip_checklist
 
 *HELPFUL RESOURCE 1: 
 Z:\Working Files\Web Design\Refs\google-analytics_webmaster-tools_instructions
+
+
+![stack Overflow](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/694/google_analytics_webmaster_tools_instructions.jpg)
+
