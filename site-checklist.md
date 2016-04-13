@@ -35,5 +35,15 @@ Z:\Working Files\Web Design\Refs\site-flip_checklist
 Z:\Working Files\Web Design\Refs\google-analytics_webmaster-tools_instructions
 
 
-![stack Overflow](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/694/google_analytics_webmaster_tools_instructions.jpg)
+![GA](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/694/google_analytics_webmaster_tools_instructions_Page_1.jpg)
+
+![GA](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/694/google_analytics_webmaster_tools_instructions_Page_2.jpg)
+
+![GA](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/694/google_analytics_webmaster_tools_instructions_Page_3.jpg)
+
+![GA](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/694/google_analytics_webmaster_tools_instructions_Page_4.jpg)
+
+![GA](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/694/google_analytics_webmaster_tools_instructions_Page_5.jpg)
+
+![GA](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/694/google_analytics_webmaster_tools_instructions_Page_6.jpg)
 
