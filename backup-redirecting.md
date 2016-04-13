@@ -9,3 +9,7 @@ Please make sure the folder is domain.com
 
 
 #Site Rewrites 
+
+ /(.+) /  - Redirect Everything to the homepage 
+
+ (.+) http://www.domain.com/  - Redirect everything every to an external domain. 
