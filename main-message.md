@@ -72,3 +72,8 @@ Keep designs clean and minimal. Create a cohesive design that is based on the co
 
 Examples
 /graphics/*Working Files/Web Design/01 Projects/10_RS CN - ReliaServe Contractor Nation/0 contractornation.com/03-main-message-samples
+
+
+- http://www.templatemonster.com/demo/48810.html
+- http://www.templatemonster.com/demo/48482.html
+- http://www.templatemonster.com/demo/48769.html
