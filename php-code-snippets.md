@@ -34,3 +34,16 @@ Stuff
 	} // month swap
 ?>
 ```
+
+
+### HTTP to HTTPS 
+```php
+<?php
+if (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) and $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'http') {
+    $url = "https://". $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+    header("HTTP/1.1 301 Moved Permanently"); 
+    header("Location: $url");
+    die();
+}
+?>
+```
