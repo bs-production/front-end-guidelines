@@ -6,9 +6,10 @@
 - [AutoPrefixer](https://autoprefixer.github.io/) - Add the desired vendor prefixes and remove unnecessary in your CSS
 
 ## Chrome Extensions 
+
 - [Check My Links](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf) - Scan one page for any broken links
 - [Linkclump](https://chrome.google.com/webstore/detail/linkclump/lfpjkncokllnfokkgpkobnkbkmelfefj)  - Lets you open, copy or bookmark multiple links at the same time.
-- 
+
 ### Accesibility 
 - [AXE Chrome Extension](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd)
 - [Chrome Accesibility Tools](http://peacockmedia.software/mac/integrity/)
