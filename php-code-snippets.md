@@ -33,6 +33,15 @@ Stuff
 <?php
 	} // month swap
 ?>
+
+
+   <?php if ( time() >= strtotime('2016-05-30 00:01') && time() < strtotime('2016-06-15 23:59') )
+            {
+            ?>
+     <?php
+	} // month swap
+?>       
+            
 ```
 
 
