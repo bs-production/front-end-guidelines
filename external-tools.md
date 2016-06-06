@@ -30,6 +30,7 @@
 -  [DynamicDrive](http://tools.dynamicdrive.com/favicon/) - Ugly but gets the job done
 -  [iConvertIcons](https://iconverticons.com/online/) - Just another option. 
 
+- http://www.google.com/s2/favicons?domain=www.hallmarkhomesremodeling.com
 
 ## Color Schemes
 
