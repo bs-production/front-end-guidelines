@@ -41,8 +41,9 @@ $superNav->superItems = array(
         'grandchildren' => true
     )
 );
-?>
+
 echo $superNav->generateSuperMarkup();
+?>
 ```
 ##Super Footer
 ```php
