@@ -1,7 +1,7 @@
 ##SuperNAV
 
 
-### Default Snippet - 
+### Default Snippet - Example http://www.connecticutbasementsystems.com/
 
 ```php
   <?php
