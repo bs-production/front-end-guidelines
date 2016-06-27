@@ -41,11 +41,15 @@ echo $superNav->generateSuperMarkup();
 ```
 ##Super Footer
 ```php
-<?php
-$superNav = new nav();
-$superNav->superMode = 'bottom';
-echo $superNav->generateSuperMarkup();
-?>
+ <div id="footer-links">
+    <?php
+    $superNav = new nav();
+    $superNav->superMode = 'bottom';
+    echo $superNav->generateSuperMarkup();
+    ?>
+      <?php echo $socialFooter ?>
+</div>
+
 ```
 
 
