@@ -16,6 +16,8 @@ This snipper will output the entire Nav chunk
 
 ## Custom Top 
 
+When you go Custom there are a few options. There are three targets: services, about, map. If you need to add a special page to the supernav you can add its page ID and move it around in the array. 
+
 ```php
 <?php
 $superNav = new nav();
