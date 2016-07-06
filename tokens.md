@@ -2,7 +2,7 @@
 
 [[horizontal_des_counter]]
 
-
+[[logo]]
 ##Footer 
 
 [[display_addresses]] - Shows all address in portal 
