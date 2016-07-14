@@ -53,7 +53,7 @@ echo $superNav->generateSuperMarkup();
     $superNav->superMode = 'bottom';
     echo $superNav->generateSuperMarkup();
     ?>
-      <?php echo $socialFooter ?>
+      <div class="social-footer"> <?php echo $socialFooter ?></div>
 </div>
 
 ```
