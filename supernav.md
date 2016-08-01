@@ -44,7 +44,50 @@ $superNav->superItems = array(
 
 echo $superNav->generateSuperMarkup();
 ?>
+
 ```
+##Version 2 Top Nav with Sliding sticky bar
+```php
+<?php
+$superNav = new nav();
+$superNav->superTemplateId = 3;
+$superNav->superMode = 'top';
+$superNav->superItems = array(
+	'Services' => array(
+        'target' => 'services'
+    ),
+    'Our Work' => array(
+        'target' => 'about',
+        'show_about_link' => false
+    ),
+    //Replace With Page ID of Financing Page
+    12345 => array(
+        'grandchildren' => false
+    ),
+    //Replace with Page ID of Reviews Page
+    12345 => array(
+        'grandchildren' => false
+    ),
+    'Service Area' => array(
+        'target' => 'map',
+    ),
+    //Replace with Page ID of About Us Page
+    12345 => array(
+        'grandchildren' => false
+    )
+);
+
+echo $superNav->generateSuperMarkup();
+?>
+```
+####Use this script to make Services top nav dropdown full width if it only display top level links and no children
+<!-- For this site - remove .short class on service dropdown until we figure it out dynamically -->
+```
+<script>
+    $('ul#top-nav-list li:first-child .short').removeClass('short');
+</script>
+```
+
 ##Super Footer
 ```php
  <div id="footer-links">
