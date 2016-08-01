@@ -80,7 +80,7 @@ $superNav->superItems = array(
 echo $superNav->generateSuperMarkup();
 ?>
 ```
-####Use this script to make Services top nav dropdown full width if it only display top level links and no children
+####Use this script to make Services top nav dropdown full width if it only displays top level service links and no children
 <!-- For this site - remove .short class on service dropdown until we figure it out dynamically -->
 ```
 <script>
