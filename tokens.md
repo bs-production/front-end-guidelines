@@ -4,7 +4,7 @@
 
 [[logo]]
 
-[license number]
+[[license number]]
 
 
 ##Footer 
