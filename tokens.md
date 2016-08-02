@@ -17,9 +17,9 @@
 
 
 ## Core V3 
-
 [[custom_core_v3]]
 
+#### Output 
 ```html
 	<link rel="alternate" title="News and Events" href="/feeds.xml" type="application/rss+xml" />
     	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
@@ -50,6 +50,7 @@
 
 [[custom_core_v3_js]]
 
+#### Output 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation.min.js"></script> 
 <script src="http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/template.js"></script> 
