@@ -2,7 +2,7 @@
 
 [[horizontal_des_counter]]
 
-[[logo]]
+[[logo]] - Pulls whatever logo is in Logo Management in Portal
 
 [[license number]]
 
@@ -14,7 +14,7 @@
 
 [[display_addresses_phone]] - Shows all address and phone numbers. Most commonly used below the city scroll 
 
-
+[[cn-logo]] - CN logo usually in footer
 
 ## Core V3 
 [[custom_core_v3]]
