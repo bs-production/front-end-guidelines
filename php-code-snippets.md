@@ -50,6 +50,17 @@ $isCityPage  - Detect City Pages
 $thePage  - Check The Current Page 
 
 ```
+
+
+### Make Your Own Tokens 
+```php 
+<?php
+global $siteTokens;
+$siteTokens['County'] = 'Parish';
+$siteTokens['Counties'] = 'Parishes';
+?>
+
+```
 ### HTTP to HTTPS 
 ```php
 <?php
