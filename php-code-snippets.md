@@ -33,4 +33,42 @@ Stuff
 <?php
 	} // month swap
 ?>
+
+
+   <?php if ( time() >= strtotime('2016-05-30 00:01') && time() < strtotime('2016-06-15 23:59') )
+            {
+            ?>
+     <?php
+	} // month swap
+?>       
+            
+```
+
+##Global Variables
+```php
+$isCityPage  - Detect City Pages
+$thePage  - Check The Current Page 
+
+```
+
+
+### Make Your Own Tokens 
+```php 
+<?php
+global $siteTokens;
+$siteTokens['County'] = 'Parish';
+$siteTokens['Counties'] = 'Parishes';
+?>
+
+```
+### HTTP to HTTPS 
+```php
+<?php
+if (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) and $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'http') {
+    $url = "https://". $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+    header("HTTP/1.1 301 Moved Permanently"); 
+    header("Location: $url");
+    die();
+}
+?>
 ```

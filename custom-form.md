@@ -1,9 +1,22 @@
 # Custom Forms
 
+### Form Builder 
+
+http://codepen.io/siwicki/live/zqyVdX
 
 
+For your form you need to name your inputs "form_logger_" , any from inputs should be named accordingly.
+
+For example, '<input name="form_logger_first_name" />' 
+
+```html
+    <form action="" post>
+      <input name="form_logger_first_name" />
+      <label>First Name</label>
+    </form>
+```
  Place the following above a HTML form.
-
+```php
     <?php
     if (!empty($_POST)) {
         global $siteData, $siteDefineData;
@@ -22,16 +35,9 @@
         }
     }
     ?>
-
-For your form you need to name your inputs "form_logger_" , any from inputs should be named accordingly.
-
-For example, '<input name="form_logger_first_name" />' 
+  ```
 
 
-    <form action="" post>
-      <input name="form_logger_first_name" />
-      <label>First Name</label>
-    </form>
 
 
 

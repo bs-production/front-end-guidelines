@@ -2,6 +2,7 @@
 
 Here's some code to create a Sticky Navbar.
 
+```js
     <script>
     $(document).ready(function() {
       $(window).bind('scroll', function () {
@@ -13,10 +14,14 @@ Here's some code to create a Sticky Navbar.
       });
     });
     </script>
-    
+```
+
 Add CSS class to style sheet only.
+
+```css
 
     .fixed {
     position: fixed;
     top: 0;
     }
+```
