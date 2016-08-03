@@ -2,11 +2,7 @@
 
 ##jQuery 
 
-All of our sites include jQuery by default. We load in jQuery 1.4.4
-
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-
-If you need something that does not work with 1.4.4 please see John or Nicole before moving forward with it. 
+All of our sites include jQuery by default.  
 
 ##jQuery UI 
 
@@ -38,7 +34,7 @@ If you want to inline a script in the CMS please use a custom code module on the
     </script>
 
 
-Javascript Components Library
+##Javascript Components Library
 Sliders 
 
 Example Site: http://www.gsmsince1927.com/
