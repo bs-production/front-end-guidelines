@@ -44,7 +44,12 @@ Stuff
             
 ```
 
+##Global Variables
+```php
+$isCityPage  - Detect City Pages
+$thePage  - Check The Current Page 
 
+```
 ### HTTP to HTTPS 
 ```php
 <?php
