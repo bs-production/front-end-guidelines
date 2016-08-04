@@ -48,7 +48,7 @@ Stuff
 ```php
 $isCityPage  - Detect City Pages
 $thePage  - Check The Current Page 
-<?php if (isset(!$inHouse)) { ?>  - Hide From Building Traffice
+<?php if($isInHouse == 0)  { ?>  - Hide From Building Traffice
 ```
  
 ### HTTP to HTTPS 
