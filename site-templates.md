@@ -1,3 +1,46 @@
+## Equalizer fix for long tabbed content
+###If you've been told that tabbed or accordion content gets cut off update the template as follows:
+
+####Oak Template (AFS Template)
+1. Remove border-right on #subnav-left
+2. Then Add the following CSS below #page-wrap
+```css
+    @media screen and (min-width: 641px){
+        #page-wrap > .row::before {
+            content: "";
+            position: absolute;
+            display: block;
+            background-image: repeating-linear-gradient(180deg,#d81d22, #d81d22 3px, white 3px,white 6px);
+            width: 1px;
+            height: 100%;
+        }
+    }
+    @media screen and (min-width: 1025px) {
+        #page-wrap > .row::before {
+            left: 16.5%;
+        }
+    }
+    @media screen and (min-width: 641px) and (max-width: 1024px) {
+        #page-wrap > .row::before {
+            left: 24.5%;
+        }
+    }
+```
+####Spruce, Dogwood, Dogwood Lite (CN & DES Templates)
+1. Remove background and border-right on #subnav-left
+2. Then Add the following CSS below #page-wrap
+```css
+	@media screen and (min-width: 641px){
+	    #page-wrap > .row::before {
+	        content: "";
+	        position: absolute;
+	        display: block;
+	        background-image: linear-gradient(to left,rgb(230, 230, 230) 1px, rgb(234, 232, 232)1px, rgb(248, 248, 248) 15px);
+	        height: 100%;
+	        width: 24.9%;
+	    }
+	}
+```
 ## Google Map Token for New Templates
 
 For ALL Templates
