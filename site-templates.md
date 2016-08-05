@@ -10,7 +10,7 @@
             content: "";
             position: absolute;
             display: block;
-            background-image: repeating-linear-gradient(180deg,#d81d22, #d81d22 3px, white 3px,white 6px);
+            background-image: repeating-linear-gradient(to bottom,#d81d22, #d81d22 3px, white 3px,white 6px);
             width: 1px;
             height: 100%;
         }
