@@ -2,8 +2,13 @@
 ###If you've been told that tabbed or accordion content gets cut off update the template as follows:
 
 ####Oak Template (AFS Template)
-1. Remove border-right on #subnav-left
-2. Then Add the following CSS below #page-wrap
+1. In borders file: 
+	- Remove ```data-equalizer``` from ```<div id="page-wrap">```
+	- Remove ```data-equalizer-watch``` from ```<div id="content-wrap">```
+	- Remove ```data-equalizer-watch``` from  ```<div id="subnav-left">```
+2. In template.css:
+ 	- Remove ```border-right``` style on ```#subnav-left```
+	- Then add the following CSS below ```#page-wrap```
 ```css
     @media screen and (min-width: 641px){
         #page-wrap > .row::before {
@@ -27,8 +32,13 @@
     }
 ```
 ####Spruce, Dogwood, Dogwood Lite (CN & DES Templates)
-1. Remove background and border-right on #subnav-left
-2. Then Add the following CSS below #page-wrap
+1. In borders file: 
+	- Remove ```data-equalizer``` from ``` <div id="page-wrap"> ```
+	- Remove ```data-equalizer-watch``` from ``` <div id="content-wrap"> ```
+	- Remove ```data-equalizer-watch``` from  ``` <div id="subnav-left"> ```
+2. In template.css:
+ 	- Remove ```background``` and ```border-right``` styles on ```#subnav-left```
+	- Then add the following CSS below ```#page-wrap```
 ```css
 	@media screen and (min-width: 641px){
 	    #page-wrap > .row::before {
