@@ -1,6 +1,6 @@
 #Tokens
 
-[[horizontal_des_counter]]
+*[[horizontal_des_counter]]*
 
 [[logo]] - Pulls whatever logo is in Logo Management in Portal
 
