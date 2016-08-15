@@ -1,20 +1,20 @@
 #Tokens
 
-*[[horizontal_des_counter]]*
+[[horizontal_des_counter]]
 
-[[logo]] - Pulls whatever logo is in Logo Management in Portal
+[[logo]] - **Pulls whatever logo is in Logo Management in Portal**
 
 [[license number]]
 
 
 ##Footer 
 
-[[display_addresses]] - Shows all address in portal 
+[[display_addresses]] - **Shows all address in portal**
 
 
-[[display_addresses_phone]] - Shows all address and phone numbers. Most commonly used below the city scroll 
+[[display_addresses_phone]] - **Shows all address and phone numbers. Most commonly used below the city scroll** 
 
-[[cn-logo]] - CN logo usually in footer
+[[cn-logo]] - **CN logo usually in footer**
 
 ## Core V3 
 [[custom_core_v3]]
