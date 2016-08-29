@@ -19,8 +19,8 @@ $emailBody = '
 
 $mailer = Swift_Mailer::newInstance(Swift_MailTransport::newInstance());
 $message = Swift_Message::newInstance();
-$message->setFrom(array('no-reply@teambasementsystems.com' => 'No Reply'));
-$message->setTo(array('builtrighthomesolutions@gmail.com', 'Hibberd@BuiltRightHS.com' => 'A name'));
+$message->setFrom(array('no-reply@contractornation.com.com' => 'No Reply'));
+$message->setTo(array('', '' => 'A name'));
 $message->setBcc('basementsystems.emailcache@gmail.com');
 $message->setSubject('Completion Approval Form');
 $message->setBody($emailBody, 'text/html');
