@@ -10,10 +10,10 @@ For your form you need to name your inputs "form_logger_" , any from inputs shou
 For example, '<input name="form_logger_first_name" />' 
 
 ```html
-    <form action="" post>
-      <input name="form_logger_first_name" />
-      <label>First Name</label>
-    </form>
+   <form action="" method="post">
+      <label for="first-name">First Name</label>
+      <input name="form_logger_first_name"  id="first-name" />
+ </form>
 ```
  Place the following above a HTML form.
 ```php
