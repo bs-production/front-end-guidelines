@@ -1,0 +1,163 @@
+div.blog_most_recent div.blog_most_recent_header {
+      height: 32px !important;
+}
+
+div.blog_items {
+  clear:both !important;
+}
+
+
+.wt-5322-middle {
+  background: url('/core/images/widgets/inline/testimonials-box-middle-small.png') repeat-y;
+  padding: 10px;
+  height: 146px;
+}
+
+.wt-5331-li {
+      font-size: 13px;
+        height: 171px;
+}
+
+
+#colorbox, #cboxLoadedContent, #cboxContent {
+    box-sizing: content-box;
+}
+
+.pin-calout {
+background-color: rgb(250, 244, 234);
+padding: 60px 0px;
+}
+
+.pin-calout h2 {
+      color: #3D365E;
+      text-align:center;
+}
+
+select {
+    padding: 0.2222rem !important;
+}
+
+.contact_form {
+    width:100% !important;
+}
+
+.contact_form .step {
+   width:100% !important;
+}
+
+#contact_form select {
+    height:45px;
+}
+
+.special-learn {
+  display: block;
+  text-align: center;
+}
+
+a.btn:visited  {
+    color:white !important;
+}
+
+
+
+button {
+background-color: #CBA15D;
+color: #fff;
+}
+button:hover {
+background-color: #AE8035;
+}
+
+
+
+
+
+/*main message & Thingy Linky */
+
+.hidden {
+  display:none;
+}
+
+.fa {
+    font-size: 35px;
+}
+
+    .main-point {
+        position: absolute;
+        width: 250px;
+        display: block;
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+    @media screen and (max-width:641px){
+        .main-point { display: none;}
+    }
+    .point p, .point h4 {
+        padding: 0px 15px;
+        margin-bottom: 10px;
+        line-height: 1.1em;
+    }
+
+    .point {
+        width: 250px;
+        border: 0;
+        margin: 0 auto;
+        padding: 20px 0px;
+        background: white;
+        position: absolute;
+        display: none;
+        z-index: 1000;
+        border-radius: 3px;
+        box-shadow: 0px 5px 20px rgba(0,0,0,.25);
+    }
+
+    .point::before {
+            border: 0;
+    }
+
+      .new-0 {
+            visibility:hidden;
+        }
+
+    .new-1 {
+            top: 30%;
+            left: 13%;
+        }
+
+        .new-2 {
+            top: 70%;
+            left: 25%;
+        }
+
+        .new-3 {
+            top: 55%;
+            right: 0%;
+        }
+
+        .new-4 {
+            top: 15%;
+            left: 35%;
+        }
+
+        .new-5 {
+            top: 5%;
+            left: 60%;
+        }
+
+
+
+.pulsor {
+   -webkit-animation: pusate 1s infinite alternate;
+   animation: pusate 1s infinite alternate;
+}
+ .point p {
+    padding: 0 20px;
+}
+@-webkit-keyframes pusate {
+    from { color:  #333; }
+    to { color:  #CBA15D; }
+}
+@keyframes pusate {
+    from { color:  #333; }
+    to { color:  #CBA15D; }
+}

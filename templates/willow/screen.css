@@ -1,0 +1,508 @@
+/**********************************************************************************************************************
+***********************************************************************************************************************
+NEW CONTENT STYLES ****************************************************************************************************
+SPECIAL USE ONLY! *****************************************************************************************************
+***********************************************************************************************************************
+YOU KNOW WHO YOU ARE **************************************************************************************************
+**********************************************************************************************************************/
+
+/**** Accordion styling ***/
+#content-wrap ul.accordion {
+    padding: 0px;
+    margin: 40px 0px;
+}
+.accordion .accordion-navigation>a {
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+    border: 1px solid #d9d9d9;
+    padding: 1rem 3.25rem 1rem 1rem;
+    position: relative;
+}
+.accordion .accordion-navigation:not(:first-of-type)>a {
+    border-top: 1px solid #FDFDFD;
+}
+.accordion img {
+    margin-bottom: 20px;
+}
+.accordion-navigation > a:after {
+    content: "\25bc";
+    position: absolute;
+    font-size: 20px;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 20px;
+    color: #353535;
+}
+.accordion .accordion-navigation>.content.active {
+    padding: .5rem 1.5rem 0rem;
+    background: #F6FCFF;
+    border: 1px solid #D9D9D9;
+    border-top: 0;
+}
+
+.accordion-navigation.active > a:after {
+    content: "\25b2";
+    color: #fff;
+}
+
+.accordion .accordion-navigation.active>a {
+    color: #FFFFFF;
+    background: #0B4882;
+    text-shadow: 0 1px 0 rgba(0,0,0,.2);
+    border: 1px solid #0B4882;
+}
+#content-wrap .accordion .accordion-navigation.active h3{
+    color: #FFFFFF;
+}
+
+/** Product Color Option Boxes **/
+.product-color span {
+    position: absolute;
+    display: block;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    line-height: 1.3em;
+    color: #fff;
+    text-shadow: 0px 0px 10px rgba(0,0,0,.75);
+}
+
+.product-color span.dark {
+    color: #353535;
+    text-shadow: 0px 0px 10px rgba(255,255,255,.15);
+}
+
+.product-color img {
+    margin-bottom: 0px;
+}
+
+/**** Product/Service Pack ****/
+#content-wrap .service-pack h4 {
+    font-size: 18px;
+    margin: 8px 0px 10px;
+    line-height: 1.2em;
+}
+
+/**** Float Classes ***/
+
+.right {
+  margin: 0px 0px 30px 30px;
+}
+
+.left {
+  margin: 0px 30px 30px 0px;
+}
+
+/*** Caption text ***/
+#content-wrap p.caption {
+    font-size: 14px;
+    line-height: 1.3em;
+    margin: auto 10px 20px;
+    color: #666;
+}
+
+/*** Before/After .photo-block ***/
+.row.photo-block {
+    margin: 20px 0px;
+}
+
+/**********************************************************************************************************************
+***********************************************************************************************************************
+*************************************************** END NEW CONTENT STYLES ********************************************
+***********************************************************************************************************************
+***********************************************************************************************************************/
+/* crawl space */
+.sectionhighlight {
+    padding: 0 130px;
+}
+/*** Broadcast Widget Override ***/
+.broadcast_template1, .broadcast_template2, .broadcast_template3, .broadcast_template4 {
+    position: relative;
+    top: 0px !important;
+    padding: 20px 20px 10px;
+    overflow: auto;
+}
+.broadcast p {
+    margin-bottom: 10px;
+}
+.broadcast.broadcast_spacer {
+    display: none;
+}
+
+/** Sump Pump Reviews Page Star Rating Fix **/
+.sump-star.breakout { /** Add class="sump-star" to div wrapping star table in CMS **/
+    border: 0;
+    padding: 0px !important;
+}
+
+
+/* Crew Review */
+.crew_review.module table {
+    border: 0;
+}
+.crew_member {
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+    margin: 0;
+}
+.crew_container table tr:nth-of-type(even) {
+    background: transparent;
+}
+
+/*** Crew Review Page ***/
+@media only screen and (max-width:640px) {
+    div.crew_container {
+        margin: 0 5% !important;
+    }
+    .crew_member {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+
+/*** BLOG EDIT****/
+#search_box #search_box_submit {
+    position: static;
+    width: 99px;
+    padding: 5px !important;
+     margin: 0 0 0 10px !important;
+    cursor: pointer;
+}
+#search_box #search_box_input {
+    font-family: inherit;
+    border: 1px inset;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 0px;
+    font-style: italic;
+    width: 220px;
+    vertical-align: bottom;
+    line-height: inherit;
+    float: left;
+}
+div.blog_most_recent div.blog_most_recent_header{ height: auto !important;}
+/*** END BLOG EDIT****/
+/**** Citypage Fixes ****/
+
+.citypage_index .widget_contact .widget_title {
+    height: 70px;
+    background: url('/core/images/widgets/citypage_contact_head_bg.png') center;
+}
+
+.citypage_index .widget_contact .state,
+.citypage_index .widget_contact .zip {
+    width: 48%;
+}
+.citypage_index .widget_contact input,
+.citypage_index .widget_contact textarea,
+.citypage_index .submit #save {
+    width: 100% !important;
+    float: none;
+}
+.citypage_index .widget_contact .phone {
+    clear:both;
+}
+
+/* paginator links */
+.paginator ul li.paginator_link {
+    font-size: 14px;
+    height: auto !important;
+}
+
+/***BLOG/NEWS PAGE***/
+.blog_index input#search_box_input {
+    float: left;
+}
+
+.blog_index input#search_box_submit {
+    width: auto;
+    margin: 0px 0px 0px 20px !important;
+    padding: 7px 15px !important;
+}
+div.blog_most_recent div.blog_most_recent_header {
+    width: 100%;
+    height: auto;
+    margin: 0px auto 10px;
+}
+.blog_items {
+    clear: both;
+}
+
+/* meet the team widget & module */
+.wt-5384 {
+    float: none !important;
+    margin: 20px auto !important;
+}
+.team_item_by_department .team_item_details {
+    overflow: hidden;
+}
+.team_item_by_department .team_description {
+    font-size: 13px;
+    line-height: 17px;
+    margin-top: 5px;
+}
+.meet_the_team_index h2.team_department_name {
+    margin-bottom: 10px !important;
+    border-top: 1px solid #d9d9d9;
+    padding-top: 20px;
+}
+
+.meet_the_team_index .team_item_by_department {
+    height: auto !important;
+    margin-bottom: 30px !important;
+}
+
+
+/*** About Us Page Overrides ***/
+.about-us.right.breakout {
+    width: 300px !important;
+    margin-left: 50px;
+}
+.accred-title {
+    padding: 10px;
+    text-align: center;
+    font-family: 'tg-adventor-bold',sans-serif;
+    font-size: 20px;
+    color: #00AEEF;
+    background-color: #efefef;
+}
+.left.breakout.owners-box {
+    width: 55%;
+}
+
+.owners-box p {
+    font-size: 16px !important;
+    line-height: 1.75;
+}
+/*** Financing Form ***/
+.form-area {
+    height: 90px !important;
+}
+.form-area h2 {
+    font-family: 'tg-adventor-bold',sans-serif;
+}
+
+/*** 4 STEP FORM OVERRIDES ***/
+.contact_form {
+    width: auto !important;
+    max-width: 500px;
+    margin: 40px auto 20px !important;
+}
+.contact_form .step {
+    border: 1px solid #e4e4e4 !important;
+    border-radius: 5px;
+    width: 100% !important;
+    overflow: auto;
+}
+.contact_form .step .title {
+    border-bottom: 0 !important;
+    padding: 15px !important;
+    font-size: 16px !important;
+}
+.contact_form .form_fields br {
+    display: none;
+}
+.contact_form .form_fields input, .contact_form textarea {
+    width: 100% !important;
+    margin-bottom: 15px !important;
+}
+.contact_form button, input[type="submit"] {
+    padding: 10px 20px !important;
+    border-radius: 5px;
+    font: 18px/1.3em 'tg-adventor',sans-serif;
+    background-color: #0795CC;
+    transition: background-color .2s ease;
+    border: 0;
+    color: #fff;
+    width: 95%;
+    margin: 10px 13px 10px 0px !important;
+}
+.contact_form button:hover, input[type="submit"]:hover {
+    background-color: #00ADF1;
+}
+.contact_form .step.current .title {
+    border-color: transparent;
+    background-color: #00ADF1;
+    border-radius: 5px 5px 0px 0px;
+}
+.contact_form .step.current {
+    border-color: #fff;
+    border: 0 !important;
+    background: #E5F7FE;
+}
+/** Foundation Table Gallery **/
+#table-gallery a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+    line-height: 2em;
+}
+/*** window page table ***/
+.windows-table-wrap {
+    width: 365px !important;
+}
+
+.table.replacement-windows {
+    margin-bottom: 0;
+}
+/*** INLINE WIDGET OVERRIDES ***/
+.related_page_selector {
+    padding-top: 0px;
+    height: 40px;
+}
+
+.photogallery_album_title, .photogallery_album_photo_count {
+    font-family: helvetica, arial, sans-serif !important;
+    font-size: 12px !important;
+}
+.product_showcase li {
+    font-family: helvetica, arial, sans-serif !important;
+    font-size: 13px;
+}
+.product_showcase {
+    padding-left: 5px;
+}
+.related_pages {
+    padding: 20px;
+}
+.gallery ul li {
+    margin: 5px 5px 0px 0px !important;
+}
+.gallery li a img {
+    border: 1px solid #999999;
+    width: 100px;
+    height: 125px;
+}
+.gallery li:first-child a img {
+    width: 310px;
+    height: 350px;
+}
+.expandable_gallery .items a, .expandable_gallery .items_collapsed a {
+    height: 77px !important;
+    margin-bottom: 40px !important;
+}
+/* Before and after module */
+.before_after_description p, .before_after_item h2, .before_after_images {
+    width: auto !important;
+    max-width: 617px;
+}
+/*Before and after inline widget */
+.wt-5332-thumb img {
+    max-width: none;
+}
+/* reviews widget */
+.wt-5322-middle, .wt-5276-middle {
+    height: auto !important;
+}
+.wt-5322 p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.wt-5322-customer, .wt-5331 {
+    font-size: 12px;
+    font-family: 'tg-adventor-bold',sans-serif !important;
+    color: #0B4882;
+}
+.wt-5331-li {
+    height: 160px !important;
+}
+.wt-5331-customer {
+    font-size: 13px;
+}
+.wt-5331-starrs-wrapper, .wt-5331-details {
+    height: auto !important;
+}
+.wt-5331-content {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 10px;
+}
+.wt-5331-fullurl {
+    font-size: 12px;
+    margin: 5px !important;
+    text-align: right;
+}
+.inline-reviews-wide, .inline-testimonial-wide {
+    margin: 40px auto !important;
+}
+
+/* paginator links */
+.paginator ul li.paginator_link {
+    font-size: 14px;
+    height: auto !important;
+}
+
+/* meet the team widget & module */
+.wt-5384 {
+    float: none !important;
+    margin: 20px auto !important;
+}
+.team_item_by_department .team_description {
+    font-size: 13px;
+    line-height: 17px;
+    margin-top: 5px;
+}
+.meet_the_team_index h2.team_department_name {
+    margin-bottom: 10px !important;
+    border-top: 1px solid #d9d9d9;
+    padding-top: 20px;
+}
+
+.meet_the_team_index .team_item_by_department {
+    height: auto !important;
+    margin-bottom: 30px !important;
+}
+
+/**** Special Display Webfonts ****/
+
+@font-face {
+    font-family: 'tg-adventor';
+    src: url('/core/v2/fonts/texgyreadventor-regular-webfont.eot');
+    src: url('/core/v2/fonts/texgyreadventor-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/core/v2/fonts/texgyreadventor-regular-webfont.woff') format('woff'),
+         url('/core/v2/fonts/texgyreadventor-regular-webfont.ttf') format('truetype'),
+         url('/core/v2/fonts/texgyreadventor-regular-webfont.svg#texgyreadventorregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tg-adventor-italic';
+    src: url('/core/v2/fonts/texgyreadventor-italic-webfont.eot');
+    src: url('/core/v2/fonts/texgyreadventor-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/core/v2/fonts/texgyreadventor-italic-webfont.woff') format('woff'),
+         url('/core/v2/fonts/texgyreadventor-italic-webfont.ttf') format('truetype'),
+         url('/core/v2/fonts/texgyreadventor-italic-webfont.svg#texgyreadventoritalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tg-adventor-bold';
+    src: url('/core/v2/fonts/texgyreadventor-bold-webfont.eot');
+    src: url('/core/v2/fonts/texgyreadventor-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/core/v2/fonts/texgyreadventor-bold-webfont.woff') format('woff'),
+         url('/core/v2/fonts/texgyreadventor-bold-webfont.ttf') format('truetype'),
+         url('/core/v2/fonts/texgyreadventor-bold-webfont.svg#texgyreadventorbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tg-adventor-bold-italic';
+    src: url('/core/v2/fonts/texgyreadventor-bolditalic-webfont.eot');
+    src: url('/core/v2/fonts/texgyreadventor-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/core/v2/fonts/texgyreadventor-bolditalic-webfont.woff') format('woff'),
+         url('/core/v2/fonts/texgyreadventor-bolditalic-webfont.ttf') format('truetype'),
+         url('/core/v2/fonts/texgyreadventor-bolditalic-webfont.svg#texgyreadventorbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
