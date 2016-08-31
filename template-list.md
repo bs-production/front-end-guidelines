@@ -9,7 +9,7 @@ http://devtest22.basementsite.com/
 ## Oak
 http://devtest5.basementsite.com/
 
-## Wiliow
+## Willow
 http://template-willow.basementsite.com/
 
 

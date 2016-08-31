@@ -1,0 +1,400 @@
+/*** Broadcast Widget Override ***/
+.broadcast_template1, .broadcast_template2, .broadcast_template3, .broadcast_template4 {
+    position: relative;
+    top: 0px !important;
+    padding: 20px 20px 10px;
+    overflow: auto;
+}
+.broadcast p {
+    margin-bottom: 10px;
+}
+.broadcast.broadcast_spacer {
+    display: none;
+}
+
+/* Crew Review */
+.crew_review.module table {
+    border: 0;
+}
+.crew_member {
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+    margin: 0;
+}
+.crew_container table tr:nth-of-type(even) {
+    background: transparent;
+}
+
+/*** Crew Review Page ***/
+@media only screen and (max-width:640px) {
+    div.crew_container {
+        margin: 0 5% !important;
+    }
+    .crew_member {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+
+/** Sump Pump Reviews Page Star Rating Fix **/
+.sump-star.breakout { /** Add class="sump-star" to div wrapping star table in CMS **/
+    border: 0;
+    padding: 0px !important;
+}
+
+
+/*** BLOG EDIT****/
+#search_box #search_box_submit {
+    position: static;
+    width: 99px;
+    padding: 5px !important;
+     margin: 0 0 0 10px !important;
+    cursor: pointer;
+}
+#search_box #search_box_input {
+    font-family: inherit;
+    border: 1px inset;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 0px;
+    font-style: italic;
+    width: 220px;
+    vertical-align: bottom;
+    line-height: inherit;
+    float: left;
+}
+div.blog_most_recent div.blog_most_recent_header{ height: auto !important;}
+/*** END BLOG EDIT****/
+/*** About Us Page Overrides ***/
+.about-us.right.breakout {
+    width: 300px !important;
+    margin-left: 50px;
+}
+.accred-title {
+    padding: 10px;
+    text-align: center;
+    font-family: 'proxima-nova',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #00AEEF;
+    background-color: #efefef;
+}
+.left.breakout.owners-box {
+    width: 55%;
+}
+
+.owners-box p {
+    font-size: 16px !important;
+    line-height: 1.75;
+}
+.display-table {
+    display: table;
+    margin: 20px auto;
+}
+/** blog **/
+div.blog_most_recent div.blog_most_recent_header {
+    height: auto;
+}
+.blog_items {
+    clear: both;
+}
+/** table-gallery **/
+#table-gallery a {
+    display: block;
+    width: auto;
+    margin: 0px auto;
+}
+
+#table-gallery tr {
+    background: #fff !important;
+}
+/** Basement Finishing Design Ideas Gallery **/
+div#thumbs.navigation-gallery {
+    width: auto !important;
+}
+
+/*** Financing Form ***/
+.form-area {
+    height: 90px !important;
+}
+.form-area h2 {
+    font-family: 'proxima-nova',sans-serif;
+    font-weight: 600;
+}
+
+/** Work Request Widget **/
+.work_request_alert {
+    height: auto !important;
+}
+
+form.work_request_form {
+    width: 250px;
+}
+
+form.work_request_form input[type="text"] {
+    width: 120px;
+    padding: 3px !important;
+    height: 25px;
+    float: left;
+}
+
+.work_request_form input.work_request_form_btn {
+    padding: 3px !important;
+    font-size: 14px;
+    width: 100px;
+    background-color: #353535;
+}
+
+.work_request_alert {
+    height: auto !important;
+    background-color: #efefef !important;
+    border: 1px solid #d9d9d9 !important;
+    color: #353535 !important;
+    margin-bottom: 0px !important;
+}
+
+/*** 4 STEP FORM OVERRIDES ***/
+.contact_form {
+    width: auto !important;
+    margin: 0px auto 20px !important;
+}
+.contact_form .step {
+    border: 1px solid #e4e4e4 !important;
+    border-radius: 5px;
+    width: 100% !important;
+    overflow: auto;
+}
+.contact_form .step .title {
+    border-bottom: 0 !important;
+    padding: 15px !important;
+    font-size: 16px !important;
+}
+.contact_form .form_fields br {
+    display: none;
+}
+.contact_form .form_fields input, .contact_form textarea {
+    width: 100% !important;
+    margin-bottom: 15px !important;
+}
+.contact_form button, input[type="submit"] {
+    padding: 10px 20px !important;
+    border-radius: 5px;
+    font: 18px/1.3em 'proxima-nova',sans-serif;
+    background-color: #0795CC;
+    transition: background-color .2s ease;
+    border: 0;
+    color: #fff;
+    width: 95%;
+    margin: 10px 13px 10px 0px !important;
+}
+.contact_form button:hover, input[type="submit"]:hover {
+    background-color: #00ADF1;
+}
+.contact_form .step.current .title {
+    border-color: transparent;
+    background-color: #00ADF1;
+    border-radius: 5px 5px 0px 0px;
+}
+.contact_form .step.current {
+    border-color: #fff;
+    border: 0 !important;
+    background: #E5F7FE;
+}
+
+/** Awards Module **/
+.award_item {
+    height: 220px !important;
+}
+.award_item_details {
+    height: 70px !important;
+    font-size: 13px !important;
+    line-height: 1.3em;
+}
+
+/** Press Release Module **/
+.pr_contact_info p {
+    font-size: 14px;
+    margin-bottom: 10px !important;
+    line-height: 1.2em;
+}
+/** Foundation Table Gallery **/
+#table-gallery a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+    line-height: 2em;
+}
+/*** window page table ***/
+.windows-table-wrap {
+    width: 365px !important;
+}
+
+.table.replacement-windows {
+    margin-bottom: 0;
+}
+/*** INLINE WIDGET OVERRIDES ***/
+.related_page_selector {
+    padding-top: 0px;
+    height: 40px;
+}
+
+.photogallery_album_title, .photogallery_album_photo_count {
+    font-family: helvetica, arial, sans-serif !important;
+    font-size: 12px !important;
+}
+.product_showcase li {
+    font-family: helvetica, arial, sans-serif !important;
+    font-size: 13px;
+}
+.product_showcase {
+    padding-left: 5px;
+}
+.related_pages {
+    padding: 20px;
+}
+.gallery ul li {
+    margin: 5px 5px 0px 0px !important;
+}
+.gallery li a img {
+    border: 1px solid #999999;
+    width: 100px;
+    height: 125px;
+}
+.gallery li:first-child a img {
+    width: 310px;
+    height: 350px;
+}
+.expandable_gallery .items a, .expandable_gallery .items_collapsed a {
+    height: 77px !important;
+    margin-bottom: 40px !important;
+}
+/* Before and after module */
+.before_after_description p, .before_after_item h2, .before_after_images {
+    width: auto !important;
+    max-width: 617px;
+}
+/*Before After inline Widget */
+.wt-5332-thumb img {
+    max-width: none;
+}
+
+/* reviews widget */
+
+.wt-5322-middle, .wt-5276-middle, .wt-5330-content {
+    height: auto !important;
+}
+.wt-5322 p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.wt-5322-customer, .wt-5331 {
+    font-size: 12px;
+    font-family: 'proxima-nova',sans-serif !important;
+    font-weight: 600;
+    color: #0B4882;
+}
+.wt-5331-li {
+    height: 160px !important;
+}
+.wt-5331-customer {
+    font-size: 13px;
+}
+.wt-5331-starrs-wrapper, .wt-5331-details {
+    height: auto !important;
+}
+.wt-5331-content {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 10px;
+}
+.wt-5331-fullurl {
+    font-size: 12px;
+    margin: 5px !important;
+    text-align: right;
+}
+.inline-reviews-wide, .inline-testimonial-wide {
+    margin: 40px auto !important;
+}
+.wt_5386_reviews_widget_featured {
+    border: 1px solid #000;
+    padding: 10px;
+    width: 300px !important;
+}
+/* testimonial Widget on about us #5276 */
+
+.wt-5276-middle {
+    height: auto !important;
+}
+
+/* paginator links */
+.paginator ul li.paginator_link {
+    font-size: 14px;
+    height: auto !important;
+}
+
+/* meet the team widget & module */
+.wt-5384 {
+    float: none !important;
+    margin: 20px auto !important;
+}
+.team_item_by_department .team_item_details {
+    overflow: hidden;
+}
+.team_item_by_department .team_description {
+    font-size: 13px;
+    line-height: 17px;
+    margin-top: 5px;
+}
+.meet_the_team_index h2.team_department_name {
+    margin-bottom: 10px !important;
+    border-top: 1px solid #d9d9d9;
+    padding-top: 20px;
+}
+
+.meet_the_team_index .team_item_by_department {
+    height: 150px !important;
+    margin-bottom: 30px !important;
+}
+
+/* OL numbered links */
+.sub1, .sub2 {
+    list-style-type: none;
+}
+
+/**** Citypage Fixes ****/
+
+.citypage_index .widget_contact .widget_title {
+    height: 70px;
+    background: url('/core/images/widgets/citypage_contact_head_bg.png') center;
+}
+
+.citypage_index .widget_contact .state,
+.citypage_index .widget_contact .zip {
+    width: 48%;
+}
+.citypage_index .widget_contact input,
+.citypage_index .widget_contact textarea,
+.citypage_index .submit #save {
+    width: 100% !important;
+    float: none;
+}
+.citypage_index .widget_contact .phone {
+    clear:both;
+}
+ /* SVG Adjust Colors */
+.svg-service-icons {
+   width: 100%;
+   height: 150px;
+}
+.background {
+ fill: #353535;
+}
+.foreground {
+ fill: #fff;
+}
+.ring {
+ fill: #D50208;
+}
