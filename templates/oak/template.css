@@ -1156,6 +1156,9 @@ li.footer-link.services li:nth-child(odd) {
         line-height: 1.1em;
         font-weight: 700;
     }
+    #main-cta p {
+    	float: none;
+    }
     #main-cta a.button {
         display: block;
         max-width: 400px;
