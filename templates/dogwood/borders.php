@@ -546,7 +546,7 @@ array(
 
                                                     <?php
                                                     }
-                                                    elseif (stristr($thePage,"free-estimate"))
+                                                    elseif ((stristr($thePage,"free-estimate")) || ($isCityPage == true))
                                                     {
                                                     ?>
                                                     <div class="container" id="page-wrap">
