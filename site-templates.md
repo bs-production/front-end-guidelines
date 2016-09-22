@@ -1,3 +1,187 @@
+## New Alternate Service Area Layout
+### For any new template, follow these instructions to implement the alternate layout as seen on http://midwestbasementsystems.com
+
+1. In borders file, replace Service Area HTML with the following:
+```html
+	<div class="container home" id="service-area">
+	    <div class="container home" id="home-city-list-wrap">
+	        <div class="row small-collapse large-uncollapse">
+	            <div class="large-3 columns">
+	                <div id="home-city-list">
+	                    <p class="home-section-title">our service area</p>
+	                    [[city_scroll:100]]
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="container home" id="service-map">
+	            <div id="gmap-wrap">[[service_area_google_map]]</div>
+	    </div>
+	</div><!-- end #service-area -->
+```
+2. Add the following JS script inside ```html </body> ```:
+```js
+	<script>
+	//Map Scroll Zoom Preventer
+	        $('#home-city-list-wrap').click(function(){
+	           $(this).css('pointer-events','none');
+	           $('#home-city-list').css('pointer-events','visible');
+	        });
+	</script>
+```
+3. Replace the entire block of CSS for Service Area in template.css :
+```css
+/***------------ Service Area ------------***/
+
+#service-area {
+    position: relative;
+    height: 450px;
+    overflow: hidden;
+    border-top: 5px solid rgb(180,180,180);
+    box-sizing: content-box;
+}
+
+#service-area p.home-section-title {
+    color: #fff;
+    text-shadow: 0px -1px 0px rgba(0,0,0,.3);
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+#service-area p.more-assets {
+    left: 0;
+    z-index: 1;
+    bottom: -30px;
+    position: absolute;
+}
+#service-area p.more-assets a {
+    color: #fff;
+}
+
+/* Geo City List - new token */
+#service-area #home-city-list-wrap {
+    position: absolute;
+    z-index: 1;
+    background: transparent;
+    width: 100%;
+}
+#service-area #home-city-list-wrap .row {
+    max-width: 90rem;
+}
+#home-city-list {
+    height: 450px;
+    background: rgb(180,180,180);
+    position: relative;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    pointer-events: visible;
+}
+
+.city_scroll_list_container {
+    position: relative;
+}
+.city_scroll_list_container::after {
+    content: "";
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(to top,rgba(180,180,180,1),rgba(180,180,180,0)); /*creates the fade at bottom of city list */
+    top: 200px;
+    position: absolute;
+}
+#home-city-list h3 {
+    color: #353535;
+    font: 500 20px sans-serif;
+    margin: 0px auto 20px;
+}
+#home-city-list h3 a,
+.city_scroll_list a {
+    color: #fff;
+    border-bottom: 1px dotted rgba(255,255,255,0);
+    transition: border .2s ease;
+}
+#home-city-list h3 a:hover, .city_scroll_list a:hover {
+    border-bottom: 1px dotted rgba(255,255,255,1);
+}
+.city_scroll_list_content {
+    height: 250px;
+    overflow-y: scroll;
+    padding-bottom: 50px;
+}
+.city_scroll_list {
+    list-style: none;
+    margin: 0px;
+    line-height: 1.3em;
+    overflow: auto;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.city_scroll_list_title {
+    color: #353535;
+    margin: 20px auto 0px;
+    font-weight: 500;
+    display: inline-block;
+}
+.city_scroll_list_title:first-of-type {
+    margin-top: 0px;
+}
+.city_scroll_list li {
+    font: 200 16px/16px sans-serif;
+    color: #353535;
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 12px 0;
+    margin: 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.city_scroll_list_local_phone {
+    color: rgba(0,0,0,.5);
+    font-size: 12px;
+    font-weight: 500;
+    display: block;
+    clear: both;
+    padding-top: 20px;
+}
+
+#gmap-wrap {
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+}
+#service-area .gm-style {
+    border-radius: 0;
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px){
+    .city_scroll_list li {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #service-area {
+        height: auto;
+    }
+    #service-area #home-city-list-wrap {
+        position: relative;
+    }
+    #home-city-list {
+        pointer-events: none;
+    }
+}
+@media screen and (max-width: 640px) {
+    /* Service Area Page Map */
+    #content-wrap #gmap-wrap {
+        margin: 30px auto;
+        float: none;
+        width: 100%;
+        height: 350px;
+    }
+}
+
+```
 ## Equalizer fix for long tabbed content
 ###If you've been told that tabbed or accordion content gets cut off update the template as follows:
 
