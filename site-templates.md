@@ -1,3 +1,168 @@
+## Alternate Homepage Services Layout
+### For any new template, follow these instructions to implement the alternate layout as seen on http://midwestbasementsystems.com, http://cowleys.com, http://quality1stbasementsystems.com?test=1
+
+1.) In borders file, paste the following HTML inside ```html <div class="container" id="services">```
+```html
+	<div class="row" id="service-items-wrap">
+	    <div class="small-6 large-3 columns">
+	        <div class="service-item service1">
+	            <a href="#">
+	                <div class="srv-icon"><?php echo file_get_contents("http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/basement_waterproofing.svg"); ?></div>
+	                <div class="srv-text"><p class="service-title">Service 1</p>
+	                <p class="description">Service 1 description goes here. Make it good! Not too long and not too short.</p></div>
+	            </a>
+	        </div>
+	    </div>
+	    <div class="small-6 large-3 columns">
+	        <div class="service-item service2">
+	            <a href="#">
+	                <div class="srv-icon"><?php echo file_get_contents("http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/basement_waterproofing.svg"); ?></div>
+	                <div class="srv-text"><p class="service-title">Service 2</p>
+	                <p class="description">Service 2 description goes here. Make it good! Not too long and not too short.</p></div>
+	            </a>
+	        </div>
+	    </div>
+	    <div class="small-6 large-3 columns">
+	        <div class="service-item service3">
+	            <a href="#">
+	                <div class="srv-icon"><?php echo file_get_contents("http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/basement_waterproofing.svg"); ?></div>
+	                <div class="srv-text"><p class="service-title">Service 3</p>
+	                <p class="description">Service 3 description goes here. Make it good! Not too long and not too short.</p></div>
+	            </a>
+	        </div>
+	    </div>
+	    <div class="small-6 large-3 columns">
+	        <div class="service-item service4">
+	            <a href="#">
+	                <div class="srv-icon"><?php echo file_get_contents("http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/basement_waterproofing.svg"); ?></div>
+	                <div class="srv-text"><p class="service-title">Service 4</p>
+	                <p class="description">Service 4 description goes here. Make it good! Not too long and not too short.</p></div>
+	            </a>
+	        </div>
+	    </div>
+	</div>
+```
+
+2.) Replace entire block of CSS for Homepage Services with the following:
+``css
+<style>
+/***------------------------------------------- Homepage Services -------------------------------------------***/
+
+#services {
+    background:rgb(240,240,240);
+    padding: 60px 0px 40px;
+}
+#service-items-wrap {
+    margin-top: 30px;
+    max-width: 90rem;
+}
+/* Service Box image backgrounds */
+.service-item.service1 {background-image:url('http://placehold.it/500x300');}
+.service-item.service2 {background-image:url('http://placehold.it/500x300');}
+.service-item.service3 {background-image:url('http://placehold.it/500x300');}
+.service-item.service4 {background-image:url('http://placehold.it/500x300');}
+
+/* SVG Adjust Colors */
+.svg-service-icons {
+   width: 100%;
+   height: 150px;
+}
+.background {
+ fill: transparent;
+}
+.foreground {
+ fill: #fff;
+}
+.ring {
+ fill: transparent;
+}
+
+/* Service item box styles */
+.service-item {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px -60px rgba(150,150,150, 0.8) inset, 0 0 30px rgba(0,0,0,.2);
+    transition: box-shadow .3s ease;
+    overflow: hidden;
+    max-height: 300px;
+}
+
+.service-item a {
+    display: block;
+}
+
+.service-item .srv-icon {
+    opacity: 0;
+    padding-top: 20px;
+    transition: all .3s ease;
+}
+.srv-text {
+    color: #fff;
+    padding: 0px 10px 30px;
+    position: relative;
+    bottom: -75px;
+    transition: all .3s ease;
+}
+.srv-text p.service-title {
+    font-size: 22px;
+    margin: 0px auto 20px;
+    font-weight: 600;
+}
+.service-item p.description {
+    line-height: 1.5rem;
+    margin-bottom: 0;
+    padding: 0px 20px;
+    opacity: 0;
+    transition: opacity .2s ease;
+}
+.service-item:hover {
+    box-shadow: 0px -350px rgba(150,150,150,.8)inset, 0 0 30px rgba(0,0,0,.2);
+}
+.service-item:hover .srv-icon {
+    opacity: 1;
+}
+.service-item:hover .srv-text {
+    bottom: 20px;
+}
+.service-item:hover p.description {
+    opacity: 1;
+}
+@media screen and (max-width: 640px),
+screen and (max-height: 736px){
+    .service-item {
+        box-shadow: 0px -175px rgba(150, 150, 150, 0.8) inset;
+        height: 150px;
+    }
+    .service-item a {
+        height: 150px;
+    }
+    .service-item .srv-icon {
+        padding-top: 10px;
+        opacity: 1;
+    }
+    .svg-service-icons {
+        height: 85px;
+    }
+    .srv-text {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        padding: 0 25px;
+    }
+    .srv-text p.service-title {
+        line-height: 1.2em;
+        font-size: 16px;
+    }
+    .service-item p.description {
+        display: none;
+    }
+}
+```
+
 ## New Alternate Service Area Layout
 ### For any new template, follow these instructions to implement the alternate layout as seen on http://midwestbasementsystems.com or http://halcoenergy.com
 
