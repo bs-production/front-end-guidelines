@@ -315,10 +315,13 @@ screen and (max-height: 736px){
     height: 450px;
     margin: 0 auto;
 }
-#service-area .gm-style {
-    border-radius: 0;
+/* Google map on Service Area Page */
+#content-wrap #gmap-wrap {
+    width: 300px;
+    height: 300px;
+    margin: 0px 0px 30px 30px;
+    float: right;
 }
-
 @media screen and (min-width: 641px) and (max-width: 1024px){
     .city_scroll_list li {
         width: 25%;
