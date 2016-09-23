@@ -23,15 +23,15 @@ $credFooter ='
 ';
 
 $socialFooter ='
-<a href="#" title="Like Us on Facebook">
+<a href="#" title="Like Us on Facebook" target="_blank">
 <img src="/core/images/templates/health/fb-icon-light.png" alt="Facebook"></a>
-<a href="#" title="Follow Us on Twitter">
+<a href="#" title="Follow Us on Twitter" target="_blank">
 <img src="/core/images/templates/health/tw-icon-light.png" alt="Twitter"></a>
-<a href="#" title="Add us on Google+">
+<a href="#" title="Add us on Google+" target="_blank">
 <img src="/core/images/templates/health/goog-icon-light.png"></a>
-<a href="#" title="Share on LinkedIn">
+<a href="#" title="Share on LinkedIn" target="_blank">
 <img src="/core/images/templates/health/linkedin-icon.png" alt="LinkedIn"></a>
-<a href="#" title="Subscribe to us on YouTube">
+<a href="#" title="Subscribe to us on YouTube" target="_blank">
 <img src="/core/images/templates/health/yt-icon-light.png" alt="YouTube"></a>';
 
 
@@ -71,55 +71,69 @@ $socialFooter ='
     	<link rel="stylesheet" href="http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/nav.css" />
     	<link rel="stylesheet" type="text/css" href="/inc/sb-styles.css">
     </head>
-
-
+    
+    
     <body>
         <div id="template-wrap">
             <div class="container" id="header">
                 <div class="row collapse">
-                    <div class="large-4 columns" id="logo">
+                    <div class="large-5 columns" id="logo">
                          <?php echo $logo; ?>
                     </div>
-                    <div class="large-8 columns" id="phone">
-                        <?php
-                            $iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
-                            $android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
-                            if($iphone || $android  == true)
-                          {
-                        ?>
-                            <a href="tel:<?php echo $phonenumber; ?>" class="phone_link">
+                    <div class="large-7 columns" id="contact" data-equalizer-watch>
+                        <div class="row collapse" id="header-service-wrap">
+                            <div class="large-9 large-offset-3 columns" id="header-service-area">
+                                <p onclick="location.href='/service-area.html';" style="cursor:pointer;">Serving [territory], [major cities 3]</p>
+                            </div>
+                        </div>
+                        <div class="row collapse">
+                            <div class="columns" id="phone">
 
-                        <?
-                        }
-                        else
-                        { ?>
+                                    <?php
+                                        $iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+                                        $android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
+                                        if($iphone || $android  == true)
+                                        {
+                                        ?>
+                                        <a href="tel:<?php echo $phonenumber; ?>" class="phone_link">
 
-                            <a href="/free-estimate.html" class="phone_link">
-                        <?php
-                        }
-                        ?>
-                            <?php
-                                $times = get_open_time();
-                                if($times or isset($_GET['open']))
-                                {
+                                        <?
+                                        }
+                                        else
+                                        { ?>
+
+                                        <a href="/free-estimate.html" class="phone_link">
+                                    <?php
+                                    }
                                     ?>
 
-                                <div class="opensign"><span>open</span></div>
+                                    <?php
+                                    $times = get_open_time();
+                                    if($times or isset($_GET['open']))
+                                    {
+                                    ?>
 
-                            <?php
-                            }
-                                ?>
+                                    <div class="opensign"><span>open</span></div>
 
-                            [phone]
+                                    <?php
+                                    }
+                                    ?>
 
-                        </a>
-                        <p onclick="location.href='/service-area.html';" style="cursor:pointer;" id="header-service-area">Serving [territory], [major cities 3]</p>
+                                    [phone]
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row collapse">
+                            <div class="columns" id="header-btn">
+                                <a class="button" href="/free-estimate.html">or <span>Contact Us Online</span></a>
+                            </div>
+                        </div>
 
-                    </div>
+                    </div><!-- end #contact -->
                 </div>
             </div><!-- end #header -->
-
-<!-- SUPER NAV TOOL -->
+                
+<!-- SUPER NAV TOOL -->            
             <?php
                 $superNav = new nav();
                 $superNav->superTemplateId = 3;
@@ -148,14 +162,14 @@ $socialFooter ='
                         'grandchildren' => false
                     )
                 );
-
+                
                 echo $superNav->generateSuperMarkup();
                 ?>
-<!-- END SUPER NAV TOOL -->
-
-
+<!-- END SUPER NAV TOOL -->                        
+                        
+                        
                         <?php if ($thePage == "index") { ?>
-
+                        
                         <div class="container" id="main-message">
                             <div class="row">
                               <div class="columns hero-txt main-txt">
@@ -164,8 +178,8 @@ $socialFooter ='
                               </div>
                             </div>
                         </div><!-- /#main-message -->
-
-                        <div class="container" id="services">
+                        
+                         <div class="container" id="services">
                             <div class="row">
                               <div class="small-4 columns">
                                 <div class="service-item">
@@ -211,13 +225,13 @@ $socialFooter ='
                                         <div class="choose-item"><i class="fa fa-file-text" aria-hidden="true"></i><p><a href="/free-estimate.html">Free inspections and cost estimates</a> for all work!</p></div>
                                     </div>
                                 </div>
-                            </div>   <!-- end #choose-us -->
-
+                            </div>   <!-- end #choose-us --> 
+                        
                         <div class="container home" id="widgets">
                             <div class="row">
                                 <div class="columns"><p class="home-section-title">Recent Projects in [territory]</p></div>
                             </div>
-
+                                
                                 <?php
                                 $meta = array();
                                 $meta['useGeo'] = true;
@@ -227,7 +241,7 @@ $socialFooter ='
                                 $meta['qty'] = 3;
                                 $templates = array();
                                 $templates['main'] = array('
-
+                                
                                     <div class="row" id="widget-slider">
                                             [[items]]
                                     </div>
@@ -239,11 +253,11 @@ $socialFooter ='
                                 ');
                                 $templates['item'] = array('
                                 <div class="widget-item">
-                                    <div  class="tabs_[[num]]">
+                                    <div  class="tabs_[[num]]">            
                                         <div class="medium-5 medium-offset-1 large-6 large-offset-0 columns">
                                             <div class="widget-img">
                                                 <img src="http://img1.teambasementsystems.com/uploads/before_after/700_525/[[company_id]]/[[before-photo]]" alt="[[alt]]" />
-                                                <span>Before</span>
+                                                <span>Before</span>  
                                             </div>
                                         </div>
                                          <div class="medium-5 large-6 columns">
@@ -261,16 +275,16 @@ $socialFooter ='
                                 require_once('widgets/before_after_sidebar_widget.php');
                                 echo($output);
                                 ?>
-
+                        
                         </div><!-- end #widgets.container -->
-
+                                        
                         <div class="container home" id="customers">
                             <div class="row">
                                 <div class="columns">
                                     <p class="home-section-title">Happy Customers in [territory]</p>
                                 </div>
                             </div>
-
+                                    
                             <?php
                                 $meta = array();
                                     $meta['useGeo'] = true;
@@ -282,7 +296,7 @@ $socialFooter ='
                                 $templates = array();
                                 $templates['main'] = array('
                                     <div class="row" id="home-reviews">
-
+                                            
                                                  [[items]]
 
                                             <p class="more-assets">
@@ -306,21 +320,21 @@ $socialFooter ='
                                 require_once('widgets/reviews_sidebar_widget.php');
                                 echo($output);
                             ?>
-                            </div><!-- end customer reviews/testimonials -->
-
+                            </div><!-- end customer reviews/testimonials -->  
+                                                        
                                             <div class="container" id="page-wrap">
                                                 <div class="row">
                                                     <div class="columns homepage-content" id="content-wrap">
-
+                                                                    
                                                     <?php
                                                     }
-                                                    elseif ((stristr($thePage,"free-estimate")) || ($isCityPage == true))
+                                                    elseif (stristr($thePage,"free-estimate"))
                                                     {
                                                     ?>
                                                     <div class="container" id="page-wrap">
                                                         <div class="row">
                                                             <div class="columns free-estimate" id="content-wrap">
-
+                                                                
                                                     <?php
                                                     }
                                                     else
@@ -331,7 +345,7 @@ $socialFooter ='
                                                     {
                                                     ?>
                                                         <div id="about" class="silo-page-wrap">
-
+                                                        
                                                     <?php
                                                     }
                                                     elseif (stristr($thePage,"spray-foam-insulation"))
@@ -362,7 +376,7 @@ $socialFooter ='
                                                     {
                                                     ?>
                                                         <div id="home-insulation" class="silo-page-wrap">
-
+                                                                
                                                     <?php
                                                     }
                                                     elseif (stristr($thePage,"windows-doors"))
@@ -425,21 +439,21 @@ $socialFooter ='
                                                       {
                                                       ?>
                                                     <div id="remodeling" class="silo-page-wrap">
-
+                                                                            
                                                     <?php
                                                     }
                                                     elseif (stristr($thePage,"service-area"))
                                                     {
                                                     ?>
                                                         <div id="territory" class="silo-page-wrap">
-
+                                                                                
                                                     <?php
                                                     }
                                                     else
                                                     {
                                                     ?>
                                                         <div id="about" class="silo-page-wrap">
-
+                                                                                    
                                                     <?php
                                                     }
                                                     ?>
@@ -450,15 +464,15 @@ $socialFooter ='
                                                             </div>
                                                         </div>
                                                     </div><!-- end #silo-header -->
-                                                    <div class="container" id="page-wrap">
+                                                    <div class="container" id="page-wrap" data-equalizer>
                                                         <div class="row">
-                                                            <div class="medium-9 medium-push-3 columns body" id="content-wrap">
+                                                            <div class="medium-9 medium-push-3 columns body" id="content-wrap" data-equalizer-watch>
                                                                 <?php
                                                                 }
                                                                 ?>
-                                                                [[content]]
+                                                                [[content]]    
                                                             </div>
-                                                            <div class="medium-3 medium-pull-9 columns" id="subnav-left">
+                                                            <div class="medium-3 medium-pull-9 columns" id="subnav-left" data-equalizer-watch>
                                                                 [[single_silo_nav]]
                                                             </div>
                                                         </div>
@@ -471,8 +485,8 @@ $socialFooter ='
                                                             ?>
 
                                                     <?php if (($thePage == "index")) { ?>
-
-                                                    <div class="container" id="hp-features">
+                                                    
+                                                    <div class="container" id="hp-features">                              
                                                         <div class="row">
                                                             <div class="medium-6 columns">
                                                                 <div class="feature-item">
@@ -489,48 +503,50 @@ $socialFooter ='
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div>
-
+                                                    </div> 
+                                                    
                                                     <?php
                                                     }
                                                     ?>
 
                                                     <?php if (($thePage != "service-area")) { ?>
-
+                                                
                                                     <div class="container home" id="service-area">
-                                                        <div class="row">
-                                                            <div class="large-5 columns">
-                                                                <div id="home-city-list">
-                                                                    <p class="home-section-title">our service area</p>
-                                                                    [[city_scroll:100]]
+                                                        <div class="container home" id="home-city-list-wrap">
+                                                            <div class="row small-collapse large-uncollapse">
+                                                                <div class="large-3 columns">
+                                                                    <div id="home-city-list">
+                                                                        <p class="home-section-title">our service area</p>
+                                                                        [[city_scroll:100]]
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="large-7 columns service-map">
-                                                                <div id="gmap-wrap" onclick="location.href='/service-area.html';" style="cursor:pointer;">[[service_area_google_map]]</div>
-                                                            </div>
+                                                        </div>
+                                                        <div class="container home" id="service-map">
+                                                                <div id="gmap-wrap">[[service_area_google_map]]</div>
                                                         </div>
                                                     </div><!-- end #service-area -->
-
+                                                    
                                                     <?php
                                                     }
                                                     ?>
-
+                                                    
                                                     <?php if (($thePage == "index")) { ?>
-
+                                                        
                                                     <div class="container" id="cred">
                                                         <div class="row">
                                                             <?php echo $credFooter ?>
                                                         </div>
                                                     </div><!-- end credibility -->
-
+                                                    
                                                     <?php
                                                     }
                                                     ?>
-
+                                                            
                                                             <div class="container home" id="footer">
                                                                 <div class="row" data-equalizer>
                                                                     <div class="large-7 large-push-5 columns" data-equalizer-watch>
-
+                                                                
                                                                 <!-- SUPER FOOTER TOOL -->
                                                                     <div id="footer-links">
                                                                         <?php
@@ -538,11 +554,11 @@ $socialFooter ='
                                                                         $superNav->superMode = 'bottom';
                                                                         echo $superNav->generateSuperMarkup();
                                                                         ?>
-
+                                                                        
                                                                         <div class="social-footer"> <?php echo $socialFooter ?></div>
                                                                     </div>
                                                                 <!-- END SUPER FOOTER TOOL -->
-
+                                                                
                                                                     </div>
                                                                     <div class="large-5 large-pull-7 columns" data-equalizer-watch>
                                                                         <div id="footer-contact">
@@ -552,43 +568,51 @@ $socialFooter ='
                                                                             </p>
                                                                             <p class="footer-address">
                                                                                 &copy; <?php echo(date('Y')); ?> [[display_addresses]]</p>
-
+                                                                            
                                                                             <div class="center">
                                                                                 [[cn-logo]]
                                                                             </div>
                                                                         </div>
                                                                     </div>
-
+                                                                        
                                                                 </div>
                                                             </div>
-                                                        </div>
 
+                                                            
                                                             <a id="scrollToTop"><i class="fa fa-arrow-up" aria-hidden="true"></i>Top</a>
                                                         </div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation.min.js"></script>
-<script src="http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/template.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+                                                        
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation.min.js"></script> 
+<script src="http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/template.js"></script> 
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script> 
 
 <script>
- $('#widget-slider').slick({
-                            autoplay: false,
-                            dots: true,
-                            infinite: true,
-                            speed: 500,
-                            fade: false,
-                            cssEase: 'ease',
-                            responsive: [
-                                {
-                                  breakpoint: 640,
-                                  settings: {
-                                    arrows: false
-                                  }
-                                }
-                            ]
-                        });
-</script>
+//Before & After Homepage Widget Slider
+    $('#widget-slider').slick({
+        autoplay: false,
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: false,
+        cssEase: 'ease',
+        responsive: [
+            {
+              breakpoint: 640,
+              settings: {
+                arrows: false
+              }
+            }
+        ]
+    });
 
+//Map Scroll Zoom Preventer
+    $('#home-city-list-wrap').click(function(){
+       $(this).css('pointer-events','none');
+       $('#home-city-list').css('pointer-events','visible');
+    });
 
+</script>                                                  
+                                                        
+                                                        
                                                     </body>
                                                 </html>
