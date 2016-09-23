@@ -1,7 +1,7 @@
 ## New Alternate Service Area Layout
 ### For any new template, follow these instructions to implement the alternate layout as seen on http://midwestbasementsystems.com
 
-1. In borders file, replace Service Area HTML with the following:
+1.) In borders file, replace Service Area HTML with the following:
 ```html
 	<div class="container home" id="service-area">
 	    <div class="container home" id="home-city-list-wrap">
@@ -19,7 +19,7 @@
 	    </div>
 	</div><!-- end #service-area -->
 ```
-2. Add the following JS script inside ```html </body> ```:
+2.) Add the following JS script inside ```html </body> ```:
 ```js
 	<script>
 	//Map Scroll Zoom Preventer
@@ -29,7 +29,7 @@
 	        });
 	</script>
 ```
-3. Replace the entire block of CSS for Service Area in template.css :
+3.) Replace the entire block of CSS for Service Area in template.css :
 ```css
 /***------------ Service Area ------------***/
 
