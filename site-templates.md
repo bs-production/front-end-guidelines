@@ -1,5 +1,5 @@
 ## New Alternate Service Area Layout
-### For any new template, follow these instructions to implement the alternate layout as seen on http://midwestbasementsystems.com
+### For any new template, follow these instructions to implement the alternate layout as seen on http://midwestbasementsystems.com or http://halcoenergy.com
 
 1.) In borders file, replace Service Area HTML with the following:
 ```html
