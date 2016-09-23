@@ -48,7 +48,7 @@
 /***------------------------------------------- Homepage Services -------------------------------------------***/
 
 #services {
-    background:rgb(240,240,240);
+    background:none;
     padding: 60px 0px 40px;
 }
 #service-items-wrap {
