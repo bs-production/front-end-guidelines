@@ -44,8 +44,7 @@
 ```
 
 2.) Replace entire block of CSS for Homepage Services with the following:
-``css
-<style>
+```css
 /***------------------------------------------- Homepage Services -------------------------------------------***/
 
 #services {
