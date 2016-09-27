@@ -315,6 +315,10 @@ screen and (max-height: 736px){
     height: 450px;
     margin: 0 auto;
 }
+#service-area .gm-style {
+    border-radius: 0;
+}
+
 /* Google map on Service Area Page */
 #content-wrap #gmap-wrap {
     width: 300px;
