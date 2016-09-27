@@ -210,7 +210,7 @@ screen and (max-height: 736px){
     text-shadow: 0px -1px 0px rgba(0,0,0,.3);
     text-align: left;
     margin-bottom: 15px;
-    font-size: 28px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 #service-area p.more-assets {
@@ -240,6 +240,7 @@ screen and (max-height: 736px){
     padding: 20px 30px;
     box-sizing: border-box;
     pointer-events: visible;
+    margin-bottom: 0 !important;
 }
 
 .city_scroll_list_container {
@@ -256,7 +257,7 @@ screen and (max-height: 736px){
 }
 #home-city-list h3 {
     color: #353535;
-    font: 500 20px sans-serif;
+    font: 500 18px/1.2em sans-serif;
     margin: 0px auto 20px;
 }
 #home-city-list h3 a,
@@ -337,9 +338,6 @@ screen and (max-height: 736px){
     }
     #service-area #home-city-list-wrap {
         position: relative;
-    }
-    #home-city-list {
-        pointer-events: none;
     }
 }
 @media screen and (max-width: 640px) {
