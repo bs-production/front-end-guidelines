@@ -1,11 +1,31 @@
 # Bama Template SVG Service Icons
 [Export SVG](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/svg_pres.pdf)
 ## SVG Core Links
+**Additions**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/additions.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/additions.svg
+```
 **Basement Waterproofing**  
 ![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/bsi.png)  
 ``` html
 http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/basement_waterproofing.svg
+```
+**Bathroom Remodeling**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/bathroom-remodeling.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/bathroom_remodeling.svg
+```
+**Commercial Services**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/commercial_foundations.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/commercial_services.svg
 ```  
+**Concrete Leveling**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/polylevel.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/polylevel.svg
+```   
 **Crawl Space**  
 ![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/cs.png)  
 ``` html
@@ -25,21 +45,31 @@ http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com
 ![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/fsi.png)  
 ``` html
 http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/fsi.svg
-```  
+```
+**Helical Piers**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/helical-piers-circle.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/helical_piers_circle.svg
+```    
 **Insulation**  
 ![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/insulation.png)  
 ``` html
 http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/insulation.svg  
+```  
+**Kitchen Remodeling**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/kitchen-remodeling.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/kitchen_remodeling.svg  
 ```  
 **Mold**  
 ![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/mold.png)  
 ``` html
 http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/mold.svg
 ```  
-**Concrete Leveling**  
-![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/polylevel.png)  
+**Pest Control**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/pest-control.png)  
 ``` html
-http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/polylevel.svg
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/pest_control.svg
 ```  
 **Sump Pump**  
 ![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/sump_pump.png)  
@@ -126,7 +156,7 @@ http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com
    height: 150px;
 }
 .background {
- fill: #0F5090;
+ fill: #353535;
 }
 .foreground {
  fill: #fff;
