@@ -46,6 +46,30 @@ echo $superNav->generateSuperMarkup();
 ?>
 
 ```
+
+### You can force children now 
+
+```php
+<?php
+$superNav = new nav();
+$superNav->superMode = 'top';
+$superNav->superItems = array(
+    'Services' => array(
+        'target' => 'services'
+    ),
+    'Free Quote' => array(
+        'class' => 'quote',
+        'target' => 'contact'
+    ),
+    43049 => array(
+        'children' => array(1,23234,23423)
+    )
+);
+
+echo $superNav->generateSuperMarkup();
+?>
+
+```
 ##Version 2 Top Nav with Sliding sticky bar
 ```php
 <?php
