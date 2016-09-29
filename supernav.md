@@ -47,7 +47,8 @@ echo $superNav->generateSuperMarkup();
 
 ```
 
-### You can force children now 
+### You can force child pages
+
 
 ```php
 <?php
