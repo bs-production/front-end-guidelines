@@ -490,7 +490,7 @@ if ($thePage == 'index') {
                                 $superNav->superMode = 'bottom';
                                 echo $superNav->generateSuperMarkup();
                                 ?>
-                            <div class="social-footer"> <?php echo $socialFooter ?></div>
+                                [[social_footer]]
 
                 <!--------- END FOOTER LINKS ---------------------------->
 
