@@ -571,7 +571,7 @@ else
                                 $superNav->superMode = 'bottom';
                                 echo $superNav->generateSuperMarkup();
                                 ?>
-                                  <?php echo $socialFooter ?>
+                                [[social_footer]]
 
                 <!--------- END FOOTER LINKS ---------------------------->
 
