@@ -652,7 +652,7 @@ array(
                                                                             $superNav->superMode = 'bottom';
                                                                             echo $superNav->generateSuperMarkup();
                                                                             ?>
-                                                                              <div class="social-footer"> <?php echo $socialFooter ?></div>
+                                                                            [[social_footer]]
                                                                         </div>
                                                                      </div>
                                                                     <div class="large-5 large-pull-7 columns" data-equalizer-watch>
