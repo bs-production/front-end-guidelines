@@ -554,8 +554,7 @@ $socialFooter ='
                                                                         $superNav->superMode = 'bottom';
                                                                         echo $superNav->generateSuperMarkup();
                                                                         ?>
-                                                                        
-                                                                        <div class="social-footer"> <?php echo $socialFooter ?></div>
+                                                                        [[social_footer]]
                                                                     </div>
                                                                 <!-- END SUPER FOOTER TOOL -->
                                                                 
