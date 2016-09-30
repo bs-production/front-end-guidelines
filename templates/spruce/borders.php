@@ -464,15 +464,15 @@ $socialFooter ='
                                                             </div>
                                                         </div>
                                                     </div><!-- end #silo-header -->
-                                                    <div class="container" id="page-wrap" data-equalizer>
+                                                    <div class="container" id="page-wrap">
                                                         <div class="row">
-                                                            <div class="medium-9 medium-push-3 columns body" id="content-wrap" data-equalizer-watch>
+                                                            <div class="medium-9 medium-push-3 columns body" id="content-wrap">
                                                                 <?php
                                                                 }
                                                                 ?>
                                                                 [[content]]    
                                                             </div>
-                                                            <div class="medium-3 medium-pull-9 columns" id="subnav-left" data-equalizer-watch>
+                                                            <div class="medium-3 medium-pull-9 columns" id="subnav-left">
                                                                 [[single_silo_nav]]
                                                             </div>
                                                         </div>
