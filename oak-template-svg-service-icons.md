@@ -1,7 +1,7 @@
-# Oak Template SVG Service Icons
+# SVG Service Icons
 [Export SVG](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/svg_pres.pdf)
 ## SVG Core Links
-###Contractor Nation Services
+### Contractor Nation Services
 **Additions**  
 ![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/additions.png)  
 ``` html
@@ -17,7 +17,7 @@ http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com
 ``` html
 http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/kitchen_remodeling.svg  
 ```  
-###Basement & Crawlspace
+### Basement & Crawlspace
 **Basement Waterproofing**  
 ![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/bsi.png)  
 ``` html
@@ -53,13 +53,13 @@ http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com
 ``` html
 http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/basement_finishing.svg
 ```  
-###Dr. Energy Saver
+### Dr. Energy Saver
 **Insulation**  
 ![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/insulation.png)  
 ``` html
 http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/insulation.svg  
 ```  
-###Foundation
+### Foundation
 **Commercial Services**  
 ![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/commercial_foundations.png)  
 ``` html
