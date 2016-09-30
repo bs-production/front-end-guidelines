@@ -554,6 +554,7 @@ $socialFooter ='
                                                                         $superNav->superMode = 'bottom';
                                                                         echo $superNav->generateSuperMarkup();
                                                                         ?>
+                                                                        
                                                                         [[social_footer]]
                                                                     </div>
                                                                 <!-- END SUPER FOOTER TOOL -->
@@ -567,7 +568,9 @@ $socialFooter ='
                                                                             </p>
                                                                             <p class="footer-address">
                                                                                 &copy; <?php echo(date('Y')); ?> [[display_addresses]]</p>
-                                                                            
+                                                                            <p>
+                                                                              Contractor ID: [license number]
+                                                                            </p>
                                                                             <div class="center">
                                                                                 [[cn-logo]]
                                                                             </div>
@@ -613,5 +616,5 @@ $socialFooter ='
 </script>                                                  
                                                         
                                                         
-                                                    </body>
-                                                </html>
+    </body>
+</html>
