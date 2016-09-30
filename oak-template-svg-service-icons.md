@@ -1,75 +1,47 @@
 # Oak Template SVG Service Icons
 [Export SVG](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/svg_pres.pdf)
 ## SVG Core Links
+###Contractor Nation Services
 **Additions**  
 ![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/additions.png)  
 ``` html
 http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/additions.svg
-```
-**Basement Waterproofing**  
-![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/bsi.png)  
-``` html
-http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/basement_waterproofing.svg
 ```
 **Bathroom Remodeling**  
 ![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/bathroom-remodeling.png)  
 ``` html
 http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/bathroom_remodeling.svg
 ```
-**Commercial Services**  
-![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/commercial_foundations.png)  
-``` html
-http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/commercial_services.svg
-```  
-**Concrete Leveling**  
-![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/polylevel.png)  
-``` html
-http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/polylevel.svg
-```   
-**Crawl Space**  
-![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/cs.png)  
-``` html
-http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/cs.svg
-```  
-**Engress Windows**  
-![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/engress.png)  
-``` html
-http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/egress_windows.svg
-```  
-**Flood Damage**  
-![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/flood_damage.png)  
-``` html
-http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/flood_damage.svg
-```  
-**Foundation Supportworks**  
-![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/fsi.png)  
-``` html
-http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/fsi.svg
-```
-**Helical Piers**  
-![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/helical-piers-circle.png)  
-``` html
-http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/helical_piers_circle.svg
-```    
-**Insulation**  
-![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/insulation.png)  
-``` html
-http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/insulation.svg  
-```  
 **Kitchen Remodeling**  
 ![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/kitchen-remodeling.png)  
 ``` html
 http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/kitchen_remodeling.svg  
 ```  
+###Basement & Crawlspace
+**Basement Waterproofing**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/bsi.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/basement_waterproofing.svg
+```
+**Crawl Space**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/cs.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/cs.svg
+``` 
+**Engress Windows**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/engress.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/egress_windows.svg
+``` 
+**Flood Damage**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/flood_damage.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/flood_damage.svg
+```  
 **Mold**  
 ![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/mold.png)  
 ``` html
 http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/mold.svg
-```  
-**Pest Control**  
-![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/pest-control.png)  
-``` html
-http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/pest_control.svg
 ```  
 **Sump Pump**  
 ![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/sump_pump.png)  
@@ -81,6 +53,59 @@ http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com
 ``` html
 http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/basement_finishing.svg
 ```  
+###Dr. Energy Saver
+**Insulation**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/insulation.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/insulation.svg  
+```  
+###Foundation
+**Commercial Services**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/commercial_foundations.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/commercial_services.svg
+```  
+**Concrete Leveling**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/polylevel.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/polylevel.svg
+```   
+**Foundation Supportworks**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/fsi.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/fsi.svg
+```
+**Helical Piers**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/helical-piers-circle.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/helical_piers_circle.svg
+```    
+###Pest Control
+**Pest Control**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/pest-control.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/pest_control.svg
+``` 
+**Bed Bugs**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/bedbugs.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/bedbugs.svg
+``` 
+**Rodents**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/rodents.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/rodents.svg
+``` 
+**Termites**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/termites.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/termites.svg
+``` 
+**Wasps**  
+![alt text](http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/804/wasps.png)  
+``` html
+http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/templates/icons/wasps.svg
+``` 
 ## Static PHP Example
 ``` html
 <div class="medium-6 large-3 columns">
