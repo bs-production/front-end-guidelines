@@ -1168,12 +1168,6 @@ button.slick-next {
 
 .silo-page-wrap {}
 #page-wrap {}
-@media screen and (max-width: 640px) {
-    #page-wrap {
-        padding: 20px 0 0;
-    }
-}
-
 @media screen and (min-width: 641px){
     #page-wrap > .row::before {
         content: "";
@@ -1182,6 +1176,11 @@ button.slick-next {
         background-image: linear-gradient(to left,rgb(230, 230, 230) 1px, rgb(234, 232, 232)1px, rgb(248, 248, 248) 15px);
         height: 100%;
         width: 24.9%;
+    }
+}
+@media screen and (max-width: 640px) {
+    #page-wrap {
+        padding: 20px 0 0;
     }
 }
 
