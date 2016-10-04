@@ -22,20 +22,6 @@ $credFooter ='
 </div>
 ';
 
-$socialFooter ='
-<a href="#" title="Like Us on Facebook" target="_blank">
-<img src="/core/images/templates/health/fb-icon-light.png" alt="Facebook"></a>
-<a href="#" title="Follow Us on Twitter" target="_blank">
-<img src="/core/images/templates/health/tw-icon-light.png" alt="Twitter"></a>
-<a href="#" title="Add us on Google+" target="_blank">
-<img src="/core/images/templates/health/goog-icon-light.png"></a>
-<a href="#" title="Share on LinkedIn" target="_blank">
-<img src="/core/images/templates/health/linkedin-icon.png" alt="LinkedIn"></a>
-<a href="#" title="Subscribe to us on YouTube" target="_blank">
-<img src="/core/images/templates/health/yt-icon-light.png" alt="YouTube"></a>';
-
-
-
 ?>
 
 <!doctype html>
@@ -616,5 +602,5 @@ $socialFooter ='
 </script>                                                  
                                                         
                                                         
-    </body>
-</html>
+                                                    </body>
+                                                </html>
