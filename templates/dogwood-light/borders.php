@@ -665,7 +665,9 @@ array(
                                                                                 &copy; <?php echo(date('Y')); ?> [[company]]<br>
                                                                                 [[address street]]<br>
                                                                             [[address city]], [[address state]] [[address zip]]</p>
-
+                                                                            <p>
+                                                                              Contractor ID: [license number]
+                                                                            </p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
