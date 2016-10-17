@@ -3,7 +3,7 @@
 #### Example: http://devtest11.basementsite.com/demo/before-after-reveal.html?cache=0
 
 1.) Replace entire php snippet for Before & After with the following:
-```php
+```
 	
 	<?php
                 $meta = array();
@@ -48,12 +48,22 @@
                 echo($output);
             ?>
 ```
-2.) Add the following .css file to ```html <head>``
+2.) Add the following .css file to ```<head>```
 ```html
 	<link href="http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/plugins/twenty-twenty-slider/css/twentytwenty.css" rel="stylesheet" type="text/css" />
 
 ```
-3.) Add the folloing .js scripts 
+3.) Add the folloing .js scripts inside ```</body>```
+```js
+<script type="text/javascript" src="http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/plugins/twenty-twenty-slider/js/jquery.event.move.js"></script>
+<script type="text/javascript" src="http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/plugins/twenty-twenty-slider/js/jquery.twentytwenty.js"></script>
+<script>
+$(window).load(function() {
+  $(".twentytwenty-container").twentytwenty();
+});
+</script>
+
+```
 
 ## Alternate Homepage Services Layout
 ### For any new template, follow these instructions to implement the alternate layout as seen on http://midwestbasementsystems.com, http://cowleys.com, http://quality1stbasementsystems.com?test=1
