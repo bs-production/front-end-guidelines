@@ -1,3 +1,60 @@
+## Optional Before & After Photo Comparison Slider
+### Best used for great roofing, siding, remodeling photos that showcase dramatic results.
+#### Example: http://devtest11.basementsite.com/demo/before-after-reveal.html?cache=0
+
+1.) Replace entire php snippet for Before & After with the following:
+```php
+	
+	<?php
+                $meta = array();
+                $meta['useGeo'] = true;
+                $meta['manualAssetPage'] = false;
+                $meta['useFeatured'] = true;
+                $meta['siloMode'] = false;
+                $meta['qty'] = 2;
+                $templates = array();
+                $templates['main'] = array('
+                
+                    <div class="row" id="widget-items-wrap">
+                        <div class="columns">
+                            <div class="row">
+                                    [[items]]
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="columns">
+                            <p class="more-assets"><a href="[[moreurl]]" title="View All Before & After photos">View All Before &amp; After photos</a></p>
+                        </div>
+                    </div>
+                ');
+                $templates['item'] = array('
+                    <div class="columns medium-6 widget-item">
+                            <div  class="tabs_[[num]]">   
+                                <div class="widget-img">
+                                    <div class="twentytwenty-container">    
+                                        <img src="http://img1.teambasementsystems.com/uploads/before_after/700_525/[[company_id]]/[[before-photo]]" alt="" />
+                                        <img src="http://img1.teambasementsystems.com/uploads/before_after/700_525/[[company_id]]/[[after-photo]]" alt="" />
+                                    </div> 
+                                    <div class="widget-item-text">
+                                        <h3>[[title]]</h3><a href="[[url]]">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    ');
+                $title = 'BA';
+                require_once('widgets/before_after_sidebar_widget.php');
+                echo($output);
+            ?>
+```
+2.) Add the following .css file to ```html<head>```  
+```html
+	<link href="http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/plugins/twenty-twenty-slider/css/twentytwenty.css" rel="stylesheet" type="text/css" />
+
+```
+3.) Add the folloing .js scripts 
+
 ## Alternate Homepage Services Layout
 ### For any new template, follow these instructions to implement the alternate layout as seen on http://midwestbasementsystems.com, http://cowleys.com, http://quality1stbasementsystems.com?test=1
 
