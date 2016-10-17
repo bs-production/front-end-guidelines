@@ -48,7 +48,7 @@
                 echo($output);
             ?>
 ```
-2.) Add the following .css file to ```html<head>```  
+2.) Add the following .css file to ```html <head>``
 ```html
 	<link href="http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/plugins/twenty-twenty-slider/css/twentytwenty.css" rel="stylesheet" type="text/css" />
 
