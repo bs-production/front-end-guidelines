@@ -53,7 +53,7 @@
 	<link href="http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/plugins/twenty-twenty-slider/css/twentytwenty.css" rel="stylesheet" type="text/css" />
 
 ```
-3.) Add the folloing .js scripts inside ```</body>```
+3.) Add the following .js scripts inside ```</body>```
 ```js
 <script type="text/javascript" src="http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/plugins/twenty-twenty-slider/js/jquery.event.move.js"></script>
 <script type="text/javascript" src="http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com/v3/plugins/twenty-twenty-slider/js/jquery.twentytwenty.js"></script>
@@ -63,6 +63,81 @@ $(window).load(function() {
 });
 </script>
 
+```
+4.) Replace css for Homepage Widget Content in template.css file with the following:
+```css
+/***--------------------------------------- Homepage Widget Content ------------------------------------------***/
+
+#widgets {
+    padding: 60px 0px;
+}
+#widgets a {
+    text-decoration: underline;
+}
+#widget-items-wrap, #widget-items-wrap + .row {
+    max-width: 90rem;
+}
+.widget-item a, .widget-item h3 {
+    display: inline;
+}
+
+.widget-item a {
+    font-size: 12px;
+    padding-left: 10px;
+    position: absolute;
+    display: block;
+    right: 15px;
+    top: 15px;
+    background: #efefef;
+    padding: 15px 10px;
+    line-height: 0;
+    text-align: center;
+    display: block;
+}
+
+.widget-item h3 {
+    font-size: 16px;
+    line-height: 1.2em;
+}
+
+.widget-item-text {
+    padding: 15px;
+    background: #fff;
+    position: relative;
+    padding-right: 110px;
+    overflow: hidden;
+}
+
+.widget-img {
+    margin-bottom: 40px;
+    box-shadow: 0 0 30px rgba(0,0,0,.2);
+}
+
+.twentytwenty-container {
+    max-height: 400px;
+}
+.widget-img img {
+    width: 100%;
+    box-shadow: 0 0 30px rgba(0,0,0,.25);
+    max-width: 100%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    display: block;
+    top: 50%;
+    left: 50%;
+}
+
+@media screen and (min-width: 1025px){
+    .widget-item {
+        padding-top: 0.9375rem;
+        padding-bottom: 0.9375rem;
+    }
+}
+@media screen and (max-width: 640px){
+    #widgets {
+        background-attachment: scroll;
+    }
+}
 ```
 
 ## Alternate Homepage Services Layout
