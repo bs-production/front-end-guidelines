@@ -45,7 +45,7 @@ Stuff
 ```
 
 ##Global Variables
-```php
+```txt
 $isCityPage  - Detect City Pages
 $isTrafficPpc  - Detech for PPC Traffic Only
 $thePage  - Check The Current Page 
