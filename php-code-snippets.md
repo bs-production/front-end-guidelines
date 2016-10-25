@@ -47,8 +47,16 @@ Stuff
 ##Global Variables
 ```php
 $isCityPage  - Detect City Pages
+$isTrafficPpc  - Detech for PPC Traffic Only
 $thePage  - Check The Current Page 
-<?php if($isInHouse == 0)  { ?>  - Hide From Building Traffice
+$isInHouse - Hide From Building Traffice
+```
+
+##URL Parameters
+```php
+?force_source=ppc - force what a page would look like in ppc
+?overlay=superawesome  - if you are logged into portal you get some cool shit
+?opensign=1  - Test Opensign switch to 0 for closed
 ```
  
 ### HTTP to HTTPS 
