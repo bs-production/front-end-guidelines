@@ -58,6 +58,16 @@ $isInHouse - Hide From Building Traffice
 ?overlay=superawesome  - if you are logged into portal you get some cool shit
 ?opensign=1  - Test Opensign switch to 0 for closed
 ```
+
+
+## Custom Tokens 
+```php
+
+<?php
+	global $siteTokens;
+	$siteTokens['http://bonedry.com'] = 'https://www.bonedry.com';  
+?>
+```
  
 ### HTTP to HTTPS 
 ```php
