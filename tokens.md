@@ -6,6 +6,12 @@
 
 [[license number]]
 
+[[oc-disclamer]] - check output below
+
+```txt
+[company] is an independent contractor and is not an affiliate of Owens Corning Roofing and Asphalt, LLC or its affiliated companies. THE PINK PANTHER&trade; &amp; &copy; 1964–2015 Metro-Goldwyn-Mayer Studios Inc. All Rights Reserved.
+```
+
 
 ##Footer 
 
