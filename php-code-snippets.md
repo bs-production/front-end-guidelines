@@ -55,6 +55,7 @@ $isInHouse - Hide From Building Traffice
 ##URL Parameters
 ```php
 ?force_source=ppc - force what a page would look like in ppc
+?force_source=blended - force what a site would like blended
 ?overlay=superawesome  - if you are logged into portal you get some cool shit
 ?opensign=1  - Test Opensign switch to 0 for closed
 ```
