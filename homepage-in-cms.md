@@ -32,3 +32,35 @@
 9. When it's time to go live, delete original index (existing homepage), and rename your new homepage to "index"
 10. Check for funky index redirects (site rewrites), if any.
 11. Save your page and Rejoice!
+
+
+
+#Building a Homepage in the CMS for a new site in the OAK TEMPLATE:
+1. Use the Copy Tool to duplicate the ***Home*** page from devtest5 into your site.
+    http://www.bsiadmin.com/portal/utility/cms_copy.php?dothis=confirmed
+    - Select source "New Site" then from dropdown to copy content FROM, choose devtest5
+    - From dropdown to copy content INTO, choose your site, click Submit
+    - On next screen, select Home page only, then scroll to bottom of page and click Continue.
+    - On the next screen, verify the information, and click Continue.
+    
+    
+    
+    
+#Building a Homepage in the CMS for a new site in the DOGWOOD TEMPLATE:
+1. Use the Copy Tool to duplicate the ***Home*** page from devtest19 into your site.
+    http://www.bsiadmin.com/portal/utility/cms_copy.php?dothis=confirmed
+    - Select source "New Site" then from dropdown to copy content FROM, choose devtest19
+    - From dropdown to copy content INTO, choose your site, click Submit
+    - On next screen, select Home page only, then scroll to bottom of page and click Continue.
+    - On the next screen, verify the information, and click Continue.
+    
+    
+    
+
+#Building a Homepage in the CMS for a new site in the DOGWOOD LITE TEMPLATE:
+1. Use the Copy Tool to duplicate the ***Home*** page from devtest2 into your site.
+    http://www.bsiadmin.com/portal/utility/cms_copy.php?dothis=confirmed
+    - Select source "New Site" then from dropdown to copy content FROM, choose devtest2
+    - From dropdown to copy content INTO, choose your site, click Submit
+    - On next screen, select Home page only, then scroll to bottom of page and click Continue.
+    - On the next screen, verify the information, and click Continue.
