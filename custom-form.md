@@ -26,6 +26,7 @@ For example, '<input name="form_logger_first_name" />'
         $logger->setSessionId($siteDefineData['cms_tracking_sessions']['session.id']);
         $logger->setFormId('form_logger_');
         $logger->setFormName('Form Name');
+        $logger->customEmailSubject('Subject');
         $logger->setNotificationEmailAddresses('john@john.com');    
         if ($logger->saveData($_POST)) {
             echo '<h1>Thank you!!</h1>';
