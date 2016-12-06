@@ -44,6 +44,28 @@ Stuff
             
 ```
 
+## Display Open Sign by setting Time Zone, Hours & Weekdays
+
+```php
+<?php
+ date_default_timezone_set('US/Eastern');
+ $currenttime = date('h:i:s:u');
+ list($hrs,$mins,$secs,$msecs) = split(':',$currenttime);
+ /*echo " => $hrs:$mins:$secs\n";*/
+?>
+
+<?php
+ $now   = new DateTime();
+ $hours = (int)$now->format("h");
+ $weekdays = (int)$now->format("w");
+ if ($hours >= 7 AND $hours <= 17 AND $weekdays >= 1 AND $weekdays <= 5) {
+?>
+
+ <div class="opensign"><span>open</span></div>
+
+<?php  }  ?>
+```
+
 ##Global Variables
 ```txt
 $isCityPage  - Detect City Pages
