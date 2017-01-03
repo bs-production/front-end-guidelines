@@ -5,7 +5,7 @@
 http://codepen.io/siwicki/live/zqyVdX
 
 
-For your form you need to name your inputs "form_logger_" , any from inputs should be named accordingly.
+For your form you need to name your inputs "form_logger_" , any form inputs should be named accordingly.
 
 For example, '<input name="form_logger_first_name" />' 
 
