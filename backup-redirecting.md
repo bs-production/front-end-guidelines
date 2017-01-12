@@ -15,6 +15,10 @@ If you need to grab something from wayback machine. This works really well
 
 https://github.com/hartator/wayback-machine-downloader
 
+```
+wayback_machine_downloader http://brandywineexteriors.com --to 20150427070206 --directory ~/Downloads/brandy
+```
+
 
 #Site Rewrites 
 
