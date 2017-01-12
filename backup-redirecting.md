@@ -8,6 +8,14 @@ Use one of the above programs to download a backup of the site you are currently
 Please make sure the folder is domain.com
 
 
+
+##Wayback download 
+
+If you need to grab something from wayback machine. This works really well 
+
+https://github.com/hartator/wayback-machine-downloader
+
+
 #Site Rewrites 
 
  /(.+) /  - Redirect Everything to the homepage 
