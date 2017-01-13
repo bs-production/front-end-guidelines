@@ -1,6 +1,6 @@
 # Widget Guide - Production Edition
 http://devtest11.basementsite.com/demo/style-guide/new-widget-guide.html
-###View widget templates compatible with new sites. New templates will be added as they are finalize
+####View widget templates compatible with new sites. New templates will be added as they are finalize
 
 
 ##Page Modules 
