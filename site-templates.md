@@ -1,3 +1,221 @@
+## Optional Affiliations Slider
+### Best used if dealer wants it or has a lot of affiliations
+#### Example: http://visionairewindows.com?dev_template=1&cache=0
+
+1.) Replace entire div#cred html with the following:
+```
+	<div class="container" id="cred">
+	  <?php
+		$meta = array();
+		    $meta['useGeo'] = true;
+		    $meta['manualAssetPage'] = false;
+		    $meta['useFeatured'] = false;
+		    $meta['siloMode'] = false;
+		    $meta['qty'] = 20;
+		    $meta['template'] = 5493;
+		$templates = array();
+		$templates['main'] = array('
+		    <div class="row" id="inline-affil-slider">
+			 <div class="columns">
+			    [[items]]
+			</div>
+		    </div>
+		    </div>');
+		  $templates['item'] = array('
+		    <div class="columns widget-item">
+			<div class="widget-affil-img">
+			    [[logo]]
+			</div>
+		    </div>');
+		$title = 'Affiliations';
+		require_once('widgets/affiliations_sidebar_widget.php');
+		echo($output);
+	    ?>
+	</div><!-- end credibility -->
+```
+2.) Add this script before ```</body>```
+```js
+	<script>
+		$('#inline-affil-slider > .columns').slick({
+			autoplay: true,
+			arrows: true,
+			infinite: true,
+			speed: 1000,
+			cssEase: 'ease',
+			slidesToShow: 3,
+			slidesToScroll: 3,
+			responsive: [
+			    {
+			    breakpoint: 640,
+			    settings: {
+				    speed: 500,
+				    slidesToShow: 1,
+				    slidesToScroll: 1
+				}
+			    }
+			]
+		    });
+	 </script>
+```
+3.) Replace css for Homepage Widget Content in template.css file with the following:
+```css
+/***------------------------------------------- Cred Bar -------------------------------------------***/
+
+#cred {
+    box-sizing: border-box;
+    background: url('/core/images/templates/health/cred-bg.png') #fff no-repeat center top;
+    overflow: auto;
+    padding: 0px 40px;
+}
+#inline-affil-slider {
+    width: 100%;
+    margin: 40px auto;
+    padding-bottom: 0;
+    position: relative;
+}
+#inline-affil-slider .slick-slider {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#inline-affil-slider p.more-assets {
+    position: absolute;
+    bottom: auto;
+    left: auto;
+    top: 0;
+    right: 0;
+}
+#inline-affil-slider p.more-assets a {
+    font-size: 12px;
+    display: inline-block;
+}
+#inline-affil-slider p.more-assets a::before {
+    content: "+";
+    border: 1px solid #2da4d0;
+    height: 12px;
+    width: 12px;
+    line-height: 0;
+    text-align: center;
+    padding: 4px 0px 0px 1px;
+    margin: 3px 5px 0 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 640px){
+    #inline-affil-slider p.more-assets {
+        top: auto;
+        left: 0;
+        bottom: 0
+    }
+}
+#inline-affil-slider .widget-item h3{
+    margin: 20px 15px 0px;
+    color: #fff;
+    display: inline-block;
+}
+#inline-affil-slider span.widget-affil-title {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.2em;
+    display: block;
+    text-align: center;
+}
+#inline-affil-slider .widget-item .widget-affil-img {
+    height: 120px;
+    position: relative;
+    margin: 10px auto;
+    overflow: hidden;
+}
+#inline-affil-slider .widget-item .widget-affil-img img {
+    display: block;
+    margin: 0px auto;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+#inline-affil-slider .widget-item .widget-affil-img span {
+    position: absolute;
+    z-index: 1;
+    color: #353535;
+    font: 600 18px/20px sans-serif;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, .35);
+    padding: 8px 10px;
+    bottom: 0;
+    left: 50%;
+    overflow: visible;
+    transform: translateX(-50%);
+    border-radius: 3px 3px 0 0;
+}
+
+/* Affil slider arrow styles */
+#inline-affil-slider button.slick-arrow {
+    background: rgba(0,0,0,.1);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border-style: none;
+    padding: 0px;
+    position: absolute;
+    z-index: 10;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    font-size: 0;
+    outline: none;
+    transition: all .2s ease;
+}
+
+#inline-affil-slider button.slick-prev {
+    left: -30px;
+}
+#inline-affil-slider button.slick-next {
+    right: -30px;
+}
+#inline-affil-slider button.slick-arrow::before {
+    content: "";
+    display: block;
+    border-style: solid;
+    border-color: rgba(0,0,0,.2);
+    transform: rotate(45deg);
+    width: 12px;
+    height: 12px;
+    transition: all .2s ease;
+}
+
+#inline-affil-slider button.slick-next::before {
+    border-width: 3px 3px 0 0;
+    margin: 0px 0 0 7px;
+}
+#inline-affil-slider button.slick-prev::before {
+    border-width: 0 0 3px 3px;
+    margin: 0px 0px 0px 10px;
+}
+#inline-affil-slider button.slick-arrow:hover {
+    background: rgba(0,0,0,.3);
+}
+#inline-affil-slider button.slick-arrow:hover::before {
+    border-color: rgba(255,255,255,1);
+}
+/* Affil slider dot styles */
+#inline-affil-slider .slick-dots {
+    bottom: -30px !important;
+}
+#inline-affil-slider .slick-dots li button {
+    padding: 0px !important;
+}
+#inline-affil-slider .slick-dots li button:before {
+    position: relative;
+    top: auto;
+    left: auto;
+}
+#inline-affil-slider .slick-dots li button:before,
+#inline-affil-slider .slick-dots li.slick-active button:before {
+    color: #333;
+}
+```
+
 ## Optional Before & After Photo Comparison Slider
 ### Best used for great roofing, siding, remodeling photos that showcase dramatic results.
 #### Example: http://devtest11.basementsite.com/demo/before-after-reveal.html?cache=0
