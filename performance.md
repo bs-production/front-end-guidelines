@@ -1,5 +1,6 @@
 # Performance and Optimization 
 
+Example site: http://www.weathertitesystems.com/
 
 ## Our Goals 
 
