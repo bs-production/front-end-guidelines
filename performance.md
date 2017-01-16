@@ -9,6 +9,8 @@ First meaningful paint under 1.25 seconds.
 
 ## Tools 
 
+https://www.webpagetest.org/
+
 ### Scripts 
 Defer and async as many scripts as possible. 
 
@@ -23,6 +25,7 @@ Async means script will be executed while the page continues the parsing.
 
 ### Image Compression 
 https://www.jpeg.io/
+
 https://tinypng.com/
 
 ### Responsive Images
