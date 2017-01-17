@@ -1,3 +1,4 @@
+```
 <style>
 div.play-button {
   height: 72px;
@@ -44,3 +45,4 @@ div.play-button {
 ```
 </script>
 
+```
