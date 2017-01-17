@@ -20,6 +20,7 @@ div.play-button {
 </div>
 
 <script>
+```
 ```js
 (function() {
             var v = document.getElementsByClassName("youtube-player");
@@ -42,7 +43,7 @@ div.play-button {
             iframe.setAttribute("id", "youtube-iframe");
             this.parentNode.replaceChild(iframe, this);
         }
-```
+
 </script>
 
 ```
