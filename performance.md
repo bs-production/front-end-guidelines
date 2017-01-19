@@ -29,6 +29,12 @@ https://www.jpeg.io/
 
 https://tinypng.com/
 
+https://imageoptim.com/mac
+
+http://getoptimage.com/
+
+
+
 ### Responsive Images
 http://www.responsivebreakpoints.com/
 
