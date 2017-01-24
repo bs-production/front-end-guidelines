@@ -1,10 +1,10 @@
-## Add Territory to BS Site Header
+## Add Territory to BS Site Header Above Phone
 ### For Willow Template
 #### Example: http://connecticutbasementsystems.com?dev_template=1&variationid=522
 
 1.) Add CSS to Header Section in Template CSS
 ```css
-    p.header-service-area {
+p.header-service-area {
     margin-bottom: 10px;
     color: grey;
 }
@@ -13,7 +13,8 @@ p.header-service-area.show-for-medium-down {
     margin: 20px auto 0;
 }
 ```
-2. Add the following HTML to borders file:
+
+2.) Add the following HTML to borders file:
 ```html
 <!--For Medium Down: Place inside </div> in #logo -->
 <p class="header-service-area show-for-medium-down" onclick="location.href='/service-area.html';" style="cursor:pointer;">Serving [territory], [major cities 3]</p>
