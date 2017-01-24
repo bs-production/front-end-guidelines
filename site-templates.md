@@ -1,6 +1,32 @@
+## Add Territory to BS Site Header
+### For Willow Template
+#### Example: http://connecticutbasementsystems.com?dev_template=1&variationid=522
+
+1.) Add CSS to Header Section in Template CSS
+```css
+    p.header-service-area {
+    margin-bottom: 10px;
+    color: grey;
+}
+p.header-service-area.show-for-medium-down {
+    text-align: center;
+    margin: 20px auto 0;
+}
+```
+2. Add the following HTML to borders file:
+```html
+<!--For Medium Down: Place inside </div> in #logo -->
+<p class="header-service-area show-for-medium-down" onclick="location.href='/service-area.html';" style="cursor:pointer;">Serving [territory], [major cities 3]</p>
+
+<!--For Large Up: Please inside #phone before <a class="phone_link"> -->
+<p class="header-service-area show-for-large-up" onclick="location.href='/service-area.html';" style="cursor:pointer;">Serving [territory], [major cities 3]</p>
+
+```
+
+
 ## Optional Affiliations Slider
 ### Best used if dealer wants it or has a lot of affiliations
-#### Example: http://visionairewindows.com?dev_template=1&cache=0
+#### Example: http://visionairewindows.com?dev_template=0&cache=0
 
 1.) Replace entire div#cred html with the following:
 ```
