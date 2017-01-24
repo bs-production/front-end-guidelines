@@ -16,10 +16,10 @@ p.header-service-area.show-for-medium-down {
 
 2.) Add the following HTML to borders file:
 ```html
-<!--For Medium Down: Place inside </div> in #logo -->
+<!--For Medium Down: Place inside </div> of #logo -->
 <p class="header-service-area show-for-medium-down" onclick="location.href='/service-area.html';" style="cursor:pointer;">Serving [territory], [major cities 3]</p>
 
-<!--For Large Up: Please inside #phone before <a class="phone_link"> -->
+<!--For Large Up: Place inside #phone before <a class="phone_link"> -->
 <p class="header-service-area show-for-large-up" onclick="location.href='/service-area.html';" style="cursor:pointer;">Serving [territory], [major cities 3]</p>
 
 ```
