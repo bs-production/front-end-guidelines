@@ -6,11 +6,11 @@ Example site: http://www.weathertitesystems.com/
 
 First meaningful paint under 1.25 seconds. 
 
-
-
 ## Tools 
 
 https://www.webpagetest.org/
+
+G
 
 ### Scripts 
 Defer and async as many scripts as possible. 
