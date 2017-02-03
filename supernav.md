@@ -4,7 +4,7 @@
 ### Default Snippet 
 Example http://www.connecticutbasementsystems.com/
 
-This snipper will output the entire Nav chunk
+This snippet will output the entire Nav chunk
 
 ```php
   <?php
