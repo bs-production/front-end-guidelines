@@ -39,9 +39,6 @@ For example, '<input name="form_logger_first_name" />'
   ```
 
 
-
-
-
 ## Standard Free Estimate 
 
 Need a little extra Juice for your Free Estimate pages? Note the hidden input as well as the name attribute for the form elements. Anything 
