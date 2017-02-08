@@ -31,20 +31,23 @@ wayback_machine_downloader http://brandywineexteriors.com --to 20150427070206 --
 
 ## PHP Status Codes
 
-
+```php
 <?php
 header("HTTP/1.0 404 Page Not Found");
 ?>
 The requested page has not found.
+```
 
-
+```php
 <?php
 header("HTTP/1.0 410 Gone");
 ?>
 The requested page has been removed.
+```
 
-
+```php
 <?php
 header("HTTP/1.0 503 Service Unavailable");
 ?>
 The requested page is unavailable.
+```
