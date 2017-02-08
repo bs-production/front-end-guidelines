@@ -26,3 +26,25 @@ wayback_machine_downloader http://brandywineexteriors.com --to 20150427070206 --
  /(.+) /  - Redirect Everything to the homepage 
 
  (.+) http://www.domain.com/  - Redirect everything every to an external domain. 
+
+
+
+## PHP Status Codes
+
+
+<?php
+header("HTTP/1.0 404 Page Not Found");
+?>
+The requested page has not found.
+
+
+<?php
+header("HTTP/1.0 410 Gone");
+?>
+The requested page has been removed.
+
+
+<?php
+header("HTTP/1.0 503 Service Unavailable");
+?>
+The requested page is unavailable.
