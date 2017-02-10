@@ -42,3 +42,12 @@ http://www.responsivebreakpoints.com/
 https://jakearchibald.github.io/svgomg/
 
 
+# Accessibiity 
+
+If the image is decorative and does not convey any information to the surrounding content, however, you may leave this "alt" attribute empty, or specify a "role" attribute with a value of "presentation."
+
+```
+<img src="http://0a7fabe38ae1ce229b14-5c67249f93bb503413209d779c0cd266.r58.cf1.rackcdn.com/7.png" alt="">
+<img src="http://0a7fabe38ae1ce229b14-5c67249f93bb503413209d779c0cd266.r58.cf1.rackcdn.com/7.png" role="presentation">
+```
+
