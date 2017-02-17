@@ -35,7 +35,7 @@ wayback_machine_downloader http://brandywineexteriors.com --to 20150427070206 --
 <?php
 header("HTTP/1.0 404 Page Not Found");
 ?>
-The requested page has not found.
+The requested page has not been found.
 ```
 
 ```php
