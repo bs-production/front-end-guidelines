@@ -105,6 +105,38 @@ $superNav->superItems = array(
 echo $superNav->generateSuperMarkup();
 ?>
 ```
+
+
+### If you need Our Work and About Us 
+```php
+<?php
+$superNav = new nav();
+$superNav->superMode = 'top';
+$superNav->superSplitAboutWork = true;
+$superNav->superItems = array(
+    'Services' => array(
+        'target' => 'services'
+    ),
+    'Our Work' => array(
+        'target' => 'work'
+    ),
+    3780 => array(
+        'target' => 'about',
+        'show_about_link' => true
+    ),
+    'Service Area' => array(
+        'target' => 'map',
+    ),
+    'Free Quote' => array(
+        'class' => 'quote',
+        'target' => 'contact'
+    )
+);
+echo $superNav->generateSuperMarkup();
+?>
+
+```
+
 ####Use this script to make Services top nav dropdown full width if it only displays top level service links and no children
 <!-- For this site - remove .short class on service dropdown until we figure it out dynamically -->
 ```
