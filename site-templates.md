@@ -61,7 +61,9 @@ p.header-service-area.show-for-medium-down {
 	</div><!-- end credibility -->
 ```
 2.) Add this script before ```</body>```
-```js
+```php
+<?php if (($thePage == "index")) { ?>
+
 	<script>
 		$('#inline-affil-slider > .columns').slick({
 			autoplay: true,
@@ -83,6 +85,10 @@ p.header-service-area.show-for-medium-down {
 			]
 		    });
 	 </script>
+	 
+<?php
+}
+?>
 ```
 3.) Replace css for Homepage Widget Content in template.css file with the following:
 ```css
