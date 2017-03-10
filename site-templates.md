@@ -43,10 +43,7 @@ p.header-service-area.show-for-medium-down {
 		$templates = array();
 		$templates['main'] = array('
 		    <div class="row" id="inline-affil-slider">
-			 <div class="columns">
 			    [[items]]
-			</div>
-		    </div>
 		    </div>');
 		  $templates['item'] = array('
 		    <div class="columns widget-item">
@@ -65,7 +62,7 @@ p.header-service-area.show-for-medium-down {
 <?php if (($thePage == "index")) { ?>
 
 	<script>
-		$('#inline-affil-slider > .columns').slick({
+		$('#inline-affil-slider').slick({
 			autoplay: true,
 			arrows: true,
 			infinite: true,
