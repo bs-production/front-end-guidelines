@@ -26,8 +26,13 @@ wayback_machine_downloader http://brandywineexteriors.com --to 20150427070206 --
  /(.+) /  - Redirect Everything to the homepage 
 
  (.+) http://www.domain.com/  - Redirect everything every to an external domain. 
+ 
+ ^/testimonials.html /about-us/testimonials.html - Redirect top level page to subdirectory without looping
 
+/roof-repair/(.+) /about-us/$1 - Redirects pages inside one subdirectory to another subdirectory 
+/roof-repair/(.*) /about-us/$1 - Redirects pages inside one subdirectory to another subdirectory
 
+^/siding/$ /siding.html - Redirects exact match of string without affecting interior page URLs
 
 ## PHP Status Codes
 
