@@ -28,5 +28,6 @@ $siteTokens['http://maps.google.com'] = 'https://maps.google.com';
 $siteTokens['http://ajax.googleapis.com/ajax'] = 'https://ajax.googleapis.com/ajax'; 
 $siteTokens['http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com'] = 'https://a80427d48f9b9f165d8d-c913073b3759fb31d6b728a919676eab.ssl.cf1.rackcdn.com'; 
 $siteTokens['http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/1431/'] = 'https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/1431/'; 
- 
+$siteTokens['http://img.youtube.com/vi/'] = 'https://img.youtube.com/vi/';
+
 ?>
