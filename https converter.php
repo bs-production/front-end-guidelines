@@ -22,15 +22,18 @@ $siteTokens['http://images.advancedroofing.biz'] = 'https://dc69b531ebf7a086ce97
  // non-https cms images
 $siteTokens['http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com'] = 'https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com'; // non-https cms images
 $siteTokens['http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r15.cf1.rackcdn.com'] = 'https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com'; // non-https cms images
-
 $siteTokens['http://0a7fabe38ae1ce229b14-5c67249f93bb503413209d779c0cd266.r58.cf1.rackcdn.com'] = 'https://a2bb4dcf4a45c37f6354-5c67249f93bb503413209d779c0cd266.ssl.cf1.rackcdn.com'; // non-https map images
-$siteTokens['http://maps.google.com'] = 'https://maps.google.com'; 
-$siteTokens['http://ajax.googleapis.com/ajax'] = 'https://ajax.googleapis.com/ajax'; 
 $siteTokens['http://b388022801b3244fdbae-c913073b3759fb31d6b728a919676eab.r15.cf1.rackcdn.com'] = 'https://a80427d48f9b9f165d8d-c913073b3759fb31d6b728a919676eab.ssl.cf1.rackcdn.com'; 
 $siteTokens['http://d6449bb3dc657045bfc9-290115cc0d6de62a29c33db202ae565c.r80.cf1.rackcdn.com/1431/'] = 'https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/1431/'; 
+
+//third party assets
+$siteTokens['http://maps.google.com'] = 'https://maps.google.com'; 
+$siteTokens['http://maps.googleapis.com'] = 'https://maps.googleapis.com';
+$siteTokens['http://ajax.googleapis.com/ajax'] = 'https://ajax.googleapis.com/ajax'; 
 $siteTokens['http://img.youtube.com/vi/'] = 'https://img.youtube.com/vi/';
+$siteTokens['http://www.youtube.com'] = 'https://www.youtube.com';
 $siteTokens['http://assets.pinterest.com/js/pinit.js'] = 'https://assets.pinterest.com/js/pinit.js';
 $siteTokens['http://s7.addthis.com/js/250/addthis_widget.js'] = 'https://s7.addthis.com/js/250/addthis_widget.js';
-$siteTokens['http://www.youtube.com'] = 'https://www.youtube.com';
+
 
 ?>
