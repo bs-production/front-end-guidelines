@@ -1,3 +1,11 @@
+# HTTP to HTTPS:
+
+### Redirect 
+
+Please use this when it is final site is in place. Check with John when the right time is. 
+
+```php
+
 <?php
 if (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) and $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'http') {
     $url = "https://". $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
@@ -6,7 +14,11 @@ if (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) and $_SERVER['HTTP_X_FORWARDED_PR
     die();
 }
 ?>
+```
 
+This is a good way to change links we don't have access to. http = https verison. We are working on ways to automate all of this. 
+
+```php
 <?php
 global $siteTokens;
 
@@ -34,6 +46,6 @@ $siteTokens['http://img.youtube.com/vi/'] = 'https://img.youtube.com/vi/';
 $siteTokens['http://www.youtube.com'] = 'https://www.youtube.com';
 $siteTokens['http://assets.pinterest.com/js/pinit.js'] = 'https://assets.pinterest.com/js/pinit.js';
 $siteTokens['http://s7.addthis.com/js/250/addthis_widget.js'] = 'https://s7.addthis.com/js/250/addthis_widget.js';
-
-
 ?>
+
+```
