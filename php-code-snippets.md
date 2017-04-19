@@ -81,7 +81,9 @@ $isInHouse - Hide From Building Traffice
 ?overlay=superawesome  - if you are logged into portal you get some cool shit
 ?opensign=1  - Test Opensign switch to 0 for closed
 
-/free-estimate/confirmation.html?test=style
+/free-estimate/confirmation.html?test=style  - Style Confirmation Pages 
+
+http://www.greenhomeslongisland.com/sitemap.xml?rebuild=nigh - This will rebuild a site map
 ```
 
 
