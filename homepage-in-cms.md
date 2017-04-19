@@ -20,7 +20,7 @@
     http://www.bsiadmin.com/portal/utility/cms_copy.php?dothis=confirmed
     - Select source "New Site" then from dropdown to copy content FROM, choose devtest11 
     - From dropdown to copy content INTO, choose your site, click Submit
-    - On next screen, select Home page only, then scroll to bottom of page and click Continue.
+    - On next screen, select `Home 2` page only, then scroll to bottom of page and click Continue.
     - On the next screen, verify the information, and click Continue.
 3. Hide new homepage from Nav
 6. In borders, find "index" and replace with "index2"
