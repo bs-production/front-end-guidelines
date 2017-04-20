@@ -66,7 +66,7 @@ Stuff
 <?php  }  ?>
 ```
 
-##Global Variables
+## Global Variables
 ```txt
 $isCityPage  - Detect City Pages
 $isTrafficPpc  - Detech for PPC Traffic Only
@@ -74,7 +74,7 @@ $thePage  - Check The Current Page
 $isInHouse - Hide From Building Traffice
 ```
 
-##URL Parameters
+## URL Parameters
 ```php
 ?force_source=ppc - force what a page would look like in ppc
 ?force_source=blended - force what a site would like blended
@@ -107,8 +107,6 @@ if (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) and $_SERVER['HTTP_X_FORWARDED_PR
 }
 ?>
 ```
-
-
 
 ### CRM Custom Data 
 ```php
