@@ -1,3 +1,5 @@
+# Table Of Contents
+
 - [Direct Traffic](#direct-traffic)
 - [Swap By Month](#swap-by-month)
   * [certain dates each year](#certain-dates-each-year)
