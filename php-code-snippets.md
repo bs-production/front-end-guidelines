@@ -87,7 +87,8 @@ Stuff
 $isCityPage  - Detect City Pages
 $isTrafficPpc  - Detech for PPC Traffic Only
 $thePage  - Check The Current Page 
-$isInHouse - Hide From Building Traffice
+$isInHouse - Hide From Building Traffic
+$isMobile - Use if you want to load something only on mobile or hide on mobile
 ```
 
 ## URL Parameters
@@ -127,5 +128,7 @@ if (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) and $_SERVER['HTTP_X_FORWARDED_PR
 ### CRM Custom Data 
 ```php
 $siteTokens["[[token_name_here]]"] = "Value"
+```
+```txt
 Then in portal you are going to add the label (e.g. crm_label) you want on the left hand column (in crm management) and the token [[token_name_here]] from above in the right hand column. This will get $_POST['crm_label'] = 'Value' sent to the url along with the other data.
 ```
