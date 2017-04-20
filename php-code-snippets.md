@@ -1,3 +1,17 @@
+- [Direct Traffic](#direct-traffic)
+- [Swap By Month](#swap-by-month)
+  * [certain dates each year](#certain-dates-each-year)
+- [Display Open Sign by setting Time Zone, Hours & Weekdays](#display-open-sign-by-setting-time-zone--hours---weekdays)
+- [Global Variables](#global-variables)
+- [URL Parameters](#url-parameters)
+- [Custom Tokens](#custom-tokens)
+  * [HTTP to HTTPS](#http-to-https)
+  * [CRM Custom Data](#crm-custom-data)
+  
+  
+  
+
+
 ## Direct Traffic 
 
 ```php
