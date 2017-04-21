@@ -9,6 +9,7 @@
 - [Custom Tokens](#custom-tokens)
   * [HTTP to HTTPS](#http-to-https)
   * [CRM Custom Data](#crm-custom-data)
+- [Searched Keyword Slider](#searched-keyword-slider)
   
   
   
@@ -131,3 +132,36 @@ $siteTokens["[[token_name_here]]"] = "Value"
 ```
 Then in portal you are going to add the label (e.g. crm_label) you want on the left hand column (in crm management) and the token [[token_name_here]] from above in the right hand column. This will get $_POST['crm_label'] = 'Value' sent to the url along with the other data.
  
+## Searched Keyword Slider
+```php
+<?php
+        $slideMain = '<div class="main-slide slide1"><div class="row"><div class="columns main-text"><h2>Engineer-Quality Assessments</h2><h3>for All of Your Home\'s Structural Problems</h3><ul><li><a href="/foundation-repair.html">Foundation Repair</a></li><li><a href="/basement-waterproofing.html">Basement Waterproofing</a></li><li><a href="/crawl-space-repair.html">Crawl Space Repair</a></li></ul></div></div></div>';
+
+        $slideFoundation = '<div class="main-slide slide2"><div class="row"><div class="small-12 columns main-slides-text"><h2><a href="/foundation-repair.html">Foundation Issues?</a></h2></div></div></div>';
+
+        $slideConcrete = '<div class="main-slide slide3"><div class="row"><div class="small-12 columns main-slides-text"><h2><a href="/concrete-lifting.html">Concrete Leveling?</a></h2></div></div></div>';
+
+        $slideBasement = '<div class="main-slide slide4"><div class="row"><div class="small-12 columns main-slides-text"><h2><a href="/basement-waterproofing.html">Wet Basement?</a></h2></div></div></div>';
+
+        $slideCrawl = '<div class="main-slide slide5"><div class="row"><div class="small-12 columns main-slides-text"><h2><a href="/crawl-space-repair.html">Wet Crawl Space<br />&amp; sagging floors?</a></h2></div></div></div>';
+      ?>
+
+      <?php if(stristr($_SESSION['searchedkeyword'], 'crawl')) {
+        echo $slideCrawl . $slideMain . $slideFoundation . $slideConcrete . $slideBasement;
+      }
+      elseif(stristr($_SESSION['searchedkeyword'], 'basement')) {
+        echo $slideBasement . $slideMain . $slideFoundation . $slideConcrete . $slideCrawl;
+      }
+      elseif(stristr($_SESSION['searchedkeyword'], 'concrete')) {
+        echo $slideConcrete . $slideMain . $slideFoundation . $slideBasement . $slideCrawl;
+      }
+      elseif(stristr($_SESSION['searchedkeyword'], 'foundation')) {
+        echo $slideFoundation . $slideMain . $slideBasement . $slideConcrete . $slideCrawl;
+      }
+      else {
+        echo $slideMain . $slideFoundation . $slideConcrete . $slideBasement . $slideCrawl;
+      }
+      ?>
+```
+
+
