@@ -1,26 +1,3 @@
-**Table of Contents**  
-
-- [Add Territory to BS Site Header Above Phone](#)
-	- [For Willow Template](#)
-		- [Example: http://connecticutbasementsystems.com?dev_template=1&variationid=522](#)
-- [Optional Affiliations Slider](#)
-	- [Best used if dealer wants it or has a lot of affiliations](#)
-		- [Example: http://visionairewindows.com?dev_template=0&cache=0](#)
-- [Optional Before & After Photo Comparison Slider](#)
-	- [Best used for great roofing, siding, remodeling photos that showcase dramatic results.](#)
-		- [Example: http://devtest11.basementsite.com/demo/before-after-reveal.html?cache=0](#)
-- [Alternate Homepage Services Layout](#)
-	- [For any new template, follow these instructions to implement the alternate layout as seen on http://midwestbasementsystems.com, http://cowleys.com, http://quality1stbasementsystems.com?test=1](#)
-- [New Alternate Service Area Layout](#)
-	- [For any new template, follow these instructions to implement the alternate layout as seen on http://midwestbasementsystems.com or http://halcoenergy.com](#)
-- [Equalizer fix for long tabbed content](#)
-- [Google Map Token for New Templates](#)
-- [New Template Tokens](#)
-- [Superwide Nova Madness](#)
-
-
-
-
 ## Add Territory to BS Site Header Above Phone
 ### For Willow Template
 #### Example: http://connecticutbasementsystems.com?dev_template=1&variationid=522
