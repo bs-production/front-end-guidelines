@@ -24,7 +24,7 @@ Below are links to some of our guidelines on a few topics. This is just a start!
 
 [Fonts](fonts.md)
 
-[TD Headers] (td-headers.md)
+[TD Headers](td-headers.md)
 
 ## Site Building
 [Site Build](site-build.md)
