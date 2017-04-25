@@ -2,7 +2,8 @@
 
 Below are links to some of our guidelines on a few topics. This is just a start!
 
-##Code
+## Code
+
 [Code Guidelines](code-guidelines.md)
 
 [Javascript](javascript.md)
@@ -13,7 +14,7 @@ Below are links to some of our guidelines on a few topics. This is just a start!
 
 [Media Files](media-files.md)
 
-##Design
+## Design
 
 [Site Templates](site-templates.md)
 
@@ -25,7 +26,7 @@ Below are links to some of our guidelines on a few topics. This is just a start!
 
 [TD Headers] (td-headers.md)
 
-##Site Building
+## Site Building
 [Site Build](site-build.md)
 
 [Google Stuff](google-stuff.md)
@@ -37,10 +38,10 @@ Below are links to some of our guidelines on a few topics. This is just a start!
 ## Tools 
 [External Tools](external-tools.md)
 
-#Testing
+### Testing
 [Example Testing](example-testing.md)
 
-#Snippets 
+### Snippets 
 [PHP Snippets](php-code-snippets.md)
 
 [Sticky Nav](sticky-navbar.md)
