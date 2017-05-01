@@ -1,4 +1,10 @@
 # Custom Forms
+### Remove "What Prompted" Dropdown from PPC Contact Form
+```js
+<script>
+    $('.what-prompted').remove();
+    </script>
+```
 
 ### Form Builder 
 
