@@ -3,7 +3,7 @@
 ```js
 <script>
     $('.what-prompted').remove();
-    </script>
+</script>
 ```
 
 ### Form Builder 
