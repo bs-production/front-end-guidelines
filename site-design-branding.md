@@ -1,10 +1,10 @@
-# Main Message
+# Design & Branding Guidelines
 
 The main message is the first impression of the site. It should include high quality imagery, clear messaging and call to action, and present the company as an industry expert/trusted professional.
 
 
 ----------
-## Design & Branding Guidelines
+## Main Message and Header Tips
 
 Keep designs clean and minimal. Create a cohesive design that is based on the company’s brand assets:
 
