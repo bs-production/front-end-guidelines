@@ -84,7 +84,7 @@ The main message is the first impression of the site. It should include high qua
     - Avoid spins and bounces. Do Not Over Animate and give users headaches
     - Some tools:
       - https://michalsnik.github.io/aos/ - AOS (Animate On Scroll) is an easy to use JS plugin
-      - http://us2.campaign-archive1.com/?u=6fbaddc8c1fce7588d1a35cb2&id=096fb65415&e=844cfd8b35
+      - http://us2.campaign-archive1.com/?u=6fbaddc8c1fce7588d1a35cb2&id=096fb65415&e=844cfd8b35 Basic Animation Tutorials
     
 
 ----------
