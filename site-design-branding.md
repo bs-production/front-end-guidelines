@@ -54,7 +54,7 @@ The main message is the first impression of the site. It should include high qua
 
 
 ***4. Typography***
-  - Use appropriate, modern fonts
+  - Use appropriate, modern fonts that represent the style of company's brand
   - Incorporate varying font weights to establish text hierarchy
   - Use proper letter spacing and line height
     - Avoid excessive letter spacing
