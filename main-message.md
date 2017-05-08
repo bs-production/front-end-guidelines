@@ -14,11 +14,9 @@ Keep designs clean and minimal. Create a cohesive design that is based on the co
 - Branded vehicles
 - Photos
 
-**If the dealer’s existing site has a full-width (browser window width) main message, create a full-width main message for the site you are building.**
-
 
 1. Images
-  - Use high quality images that appropriately convey the company and services
+  - Use high quality images that appropriately convey the company and services and compress the final .jpg or .png.
     - In Photoshop: always convert large, hi-res images, logos, or assets to ‘smart objects’ to preserve the original quality when revisions need to be made
     - In Photoshop: use layer masks to crop your images to preserve image data in case photos need to be cropped differently in the future
   - Use discretion when applying filters, effects or editing photos
@@ -26,7 +24,7 @@ Keep designs clean and minimal. Create a cohesive design that is based on the co
     - Finished project shots
     - Team photos
     - Branded vehicles 
-  - Use images of homes that are representative of the location
+  - Use images that are representative of the location
   - If the company is an Owens Corning contractor - use the approved Pink Panther/Contrator elements according to the branding guidelines located on the graphics drive:
     /graphics/*Working Files/Web Design/Library/01 Credibility/Owens Corning
 
@@ -66,6 +64,7 @@ Keep designs clean and minimal. Create a cohesive design that is based on the co
       - Place text over area of image with solid color/uncluttered area
       - Place text on solid or transparent color overlay
       - Apply softening or subtle blur to image
+      - Align text left, right, or center to achieve the best composition between image and text
 
 
 ----------
