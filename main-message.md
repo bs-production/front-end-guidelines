@@ -4,7 +4,7 @@ The main message is the first impression of the site. It should include high qua
 
 
 ----------
-Design & Branding Guidelines
+**Design & Branding Guidelines
 
 Keep designs clean and minimal. Create a cohesive design that is based on the company’s brand assets:
 
@@ -14,8 +14,17 @@ Keep designs clean and minimal. Create a cohesive design that is based on the co
 - Branded vehicles
 - Photos
 
+***1. Color Scheme***
+  - Use color representative of the company's brand, 2 primary colors and one accent color used for callouts and phone #
+  - Avoid overuse of bright, high saturation colors and use as accent colors instead
+  - Check out some tools to help achieve the ideal color scheme:
+    - https://designschool.canva.com/blog/website-color-schemes/
+    - http://www.pictaculous.com/
+    - https://coolors.co/app
+    - https://www.transparenttextures.com/
+    - http://www.colorhexa.com/
 
-1. Images
+***2. Images***
   - Use high quality images that appropriately convey the company and services and compress the final .jpg or .png.
     - In Photoshop: always convert large, hi-res images, logos, or assets to ‘smart objects’ to preserve the original quality when revisions need to be made
     - In Photoshop: use layer masks to crop your images to preserve image data in case photos need to be cropped differently in the future
@@ -29,7 +38,7 @@ Keep designs clean and minimal. Create a cohesive design that is based on the co
     /graphics/*Working Files/Web Design/Library/01 Credibility/Owens Corning
 
 
-2. Messaging
+***3. Messaging***
   - Keep messaging concise and direct 
     - Company motto if applicable
     - Mention territory
@@ -43,7 +52,7 @@ Keep designs clean and minimal. Create a cohesive design that is based on the co
       “Full Service Roofing Expert - Serving Northern Minnesota - Family owned & operated since 1885"
 
 
-3. Typography
+***4. Typography***
   - Use appropriate, modern fonts
   - Incorporate varying font weights to establish text hierarchy
   - Use proper letter spacing and line height
@@ -57,10 +66,10 @@ Keep designs clean and minimal. Create a cohesive design that is based on the co
     - http://www.ucreative.com/articles/9-dos-and-donts-of-typography/
 
 
-4. Combining Text and Images
+***5. Combining Text and Images***
   - Use techniques to ensure legibility
   - Avoid clutter and use ample spacing between text and image borders
-  - Text on image:
+  - Ensure high contrast between text and background, with these techniques:
       - Place text over area of image with solid color/uncluttered area
       - Place text on solid or transparent color overlay
       - Apply softening or subtle blur to image
@@ -70,8 +79,7 @@ Keep designs clean and minimal. Create a cohesive design that is based on the co
 ----------
 
 Examples
-/graphics/*Working Files/Web Design/01 Projects/10_RS CN - ReliaServe Contractor Nation/0 contractornation.com/03-main-message-samples
-
+http://devtest11.basementsite.com/demo/style-guide/new-template-guide.html
 
 - http://www.templatemonster.com/demo/48810.html
 - http://www.templatemonster.com/demo/48482.html
