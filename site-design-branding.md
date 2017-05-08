@@ -6,11 +6,12 @@ The main message is the first impression of the site. It should include high qua
 ----------
 ## Main Message and Header Tips
 
+***Overview***
 Keep designs clean and minimal. Create a cohesive design that is based on the company’s brand assets:
 
 - Logo
 - Company colors
-- Current website (if its good 😃)
+- Current website design (if its good 😃)
 - Branded vehicles
 - Photos
 
