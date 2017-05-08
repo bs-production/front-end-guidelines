@@ -4,7 +4,7 @@ The main message is the first impression of the site. It should include high qua
 
 
 ----------
-**Design & Branding Guidelines
+## Design & Branding Guidelines
 
 Keep designs clean and minimal. Create a cohesive design that is based on the company’s brand assets:
 
