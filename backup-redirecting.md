@@ -1,4 +1,4 @@
-#Backing Up & Redirecting 
+# Backing Up & Redirecting 
 
 Mac - Site Sucker
 
@@ -10,7 +10,7 @@ Please make sure the folder is domain.com
 
 
 
-##Wayback download 
+## Wayback download 
 
 If you need to grab something from wayback machine. This works really well 
 
@@ -21,7 +21,7 @@ wayback_machine_downloader http://brandywineexteriors.com --to 20150427070206 --
 ```
 
 
-#Site Rewrites 
+#  Site Rewrites 
 
  /(.+) /  - Redirect Everything to the homepage 
 
