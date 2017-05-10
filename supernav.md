@@ -3,7 +3,6 @@
 ### Mega Nav Link Columns
 
 In some cases, when your mega nav links dont' flow into nice even columns, try this fix:
-*(column-break-inside is not supported by Firefox. Please check all browsers before committing to this solution.)
 
 ```css
 ul.m-menu ul li {
@@ -17,6 +16,8 @@ ul.m-menu ul li {
         column-break-inside:avoid;
     }
 ```
+*Please Note: column-break-inside is not supported by Firefox. Please check all browsers before committing to this solution.*
+
 
 ### Default Snippet 
 Example http://www.connecticutbasementsystems.com/
