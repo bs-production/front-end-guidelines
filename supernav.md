@@ -7,13 +7,11 @@ In some cases, when your mega nav links dont' flow into nice even columns, try t
 ```css
 ul.m-menu ul li {
         margin-bottom: 20px;
-        display: list-item;
         float: none;
         -webkit-column-break-inside:avoid;
-        -moz-column-break-inside:avoid;
-        -o-column-break-inside:avoid;
-        -ms-column-break-inside:avoid;
         column-break-inside:avoid;
+	page-break-inside:avoid;
+	break-inside:avoid;
     }
 ```
 *Please Note: column-break-inside is not supported by Firefox. Please check all browsers before committing to this solution.*
