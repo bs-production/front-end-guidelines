@@ -14,7 +14,6 @@ ul.m-menu ul li {
 	break-inside:avoid;
     }
 ```
-*Please Note: column-break-inside is not supported by Firefox. Please check all browsers before committing to this solution.*
 
 
 ### Default Snippet 
