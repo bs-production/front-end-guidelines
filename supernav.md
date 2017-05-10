@@ -1,5 +1,22 @@
 ##SuperNAV
 
+### Mega Nav Link Columns
+
+In some cases, when your mega nav links dont' flow into nice even columns, try this fix:
+*(column-break-inside is not supported by Firefox. Please check all browsers before committing to this solution.)
+
+```css
+ul.m-menu ul li {
+        margin-bottom: 20px;
+        display: list-item;
+        float: none;
+        -webkit-column-break-inside:avoid;
+        -moz-column-break-inside:avoid;
+        -o-column-break-inside:avoid;
+        -ms-column-break-inside:avoid;
+        column-break-inside:avoid;
+    }
+```
 
 ### Default Snippet 
 Example http://www.connecticutbasementsystems.com/
