@@ -1,5 +1,19 @@
 # HTTP to HTTPS:
 
+
+## NEW SYSTEM
+
+Site Mangement in Portal has a checkbox.
+
+
+```
+To Process Your CSS Make Sure You Change Site Id and then run this tool
+http://bsiadmin.com/portal/cron/update_cms_css_ssl_urls.php?site_ids=1458
+```
+
+
+## LEGACY
+
 ### Redirect 
 
 Please use this when it is final site is in place. Check with John when the right time is. 
