@@ -57,3 +57,7 @@ header("HTTP/1.0 503 Service Unavailable");
 ?>
 The requested page is unavailable.
 ```
+
+
+## Payment Issue 
+No status code and just redirect to coming soon page. 
