@@ -5,7 +5,10 @@
 - http://devtest48.basementsite.com/  - Arbor  
 - http://devtest49.basementsite.com/  - Hazel  
 
+## Tokens 
 
+- [main_tagline]
+- [secondary_tagline]
 
 ## How To Make Content Editable For Clients
 
