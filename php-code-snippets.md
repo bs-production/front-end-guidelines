@@ -10,6 +10,7 @@
   * [HTTP to HTTPS](#http-to-https)
   * [CRM Custom Data](#crm-custom-data)
 - [Searched Keyword Slider](#searched-keyword-slider)
+- [Misc](#misc)
   
   
   
@@ -161,4 +162,9 @@ Then in portal you are going to add the label (e.g. crm_label) you want on the l
       ?>
 ```
 
-
+## Misc
+### If top-level page and silo are not equal
+```php
+if (!strstr($thePage,'service-area') and !strstr($thePage,'basement-finishing') and !strstr($thePage,'sunroom')) {
+}
+```
