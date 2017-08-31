@@ -25,3 +25,9 @@
 
 ## HTTPS
 http://a1c23520d0263bdf29dc-4b02aec4485eb16af457fbebe9081b2b.r59.cf1.rackcdn.com
+
+## Issues
+cgo SPROUT:  
+http://images.contractornation.com/872/cn-go-footer.png needs to be updated to secure  
+Social media icons color sets  
+http://a1c23520d0263bdf29dc-4b02aec4485eb16af457fbebe9081b2b.r59.cf1.rackcdn.com/images/phone-icon.png needs to be updated to secure
