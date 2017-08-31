@@ -22,3 +22,6 @@
 
 ## PSA
 - Don't Use Typekit fonts only use Google Fonts so we are not domain specific. 
+
+## HTTPS
+http://a1c23520d0263bdf29dc-4b02aec4485eb16af457fbebe9081b2b.r59.cf1.rackcdn.com
