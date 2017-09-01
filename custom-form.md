@@ -62,3 +62,33 @@ Need a little extra Juice for your Free Estimate pages? Note the hidden input as
  </select>
  </div>
 ```
+
+
+## Auto-update Lead Association in Portal  
+
+Need to add a "type of service" field to free estimate form that automatically changes association in portal Lead.
+Add to "before borders":
+
+```html
+ 
+<?php
+if (!empty($_POST)  || ($_SERVER['REQUEST_URI'] == "/free-estimate/confirmation.html") )
+{
+    global $siteData;
+    $siteData['association.id'] = $_POST['association'];
+}
+?>
+```
+
+Add to "borders" before </html> - make sure value="x" matches the association you need 
+
+```html
+ 
+<?php if(stristr($thePage,"free-estimate")) { ?> 
+    <script>
+        $(document).ready(function() {
+            $("<input type=\"hidden\" value=\"What service are you contacting us about?\" name=\"form_logger_What_Service_ID_name\" /><div class=\"servicetype\"><label for=\"What_Service_ID\">What service are you contacting us about? <span>*</span></label><select class=\"required\" name=\"association\"><option value=\"\"   class=\"service_selected\">Please Select...</option><option value=\"1\" data-assoc=\"1\">Basement Waterproofing</option><option value=\"3\" data-assoc=\"1\">Crawl Space Repair</option><option value=\"4\" data-assoc=\"1\">Foundation Repair</option><option value=\"130\" data-assoc=\"1\">Concrete Lifting</option><option value=\"2\" data-assoc=\"1\">Basement Finishing</option></select></div>").insertAfter("#display_lead_what_prompted_followup");
+        });
+    </script>
+<?php } ?>
+```
