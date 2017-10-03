@@ -32,3 +32,8 @@ cgo SPROUT:
 - Social media icons color sets  
 - http://a1c23520d0263bdf29dc-4b02aec4485eb16af457fbebe9081b2b.r59.cf1.rackcdn.com/images/phone-icon.png needs to be updated to secure
 - BBB badge homepage integration
+
+cgo ARBOR:  
+- CSS from dropdown needs to be updated with devtest48 CSS
+- BBB badge homepage integration
+- Testimonials widget not full width
