@@ -36,4 +36,13 @@ cgo SPROUT:
 cgo ARBOR:  
 - CSS from dropdown needs to be updated with devtest48 CSS
 - BBB badge homepage integration
-- Testimonials widget not full width
+- Testimonials widget not full width (fix below)
+```css
+/* Added to Content Section */
+#homepage-content #page-wrap > .row { max-width: 100%; }
+#homepage-content .full-width { padding-left: 0; padding-right: 0; }
+
+/* Added to Homepage Features Section */
+#customers .row { margin: 0 auto; max-width: 1060px; }
+.home-row { max-width: 1060px !important; margin: 25px auto !important; }
+```
