@@ -46,3 +46,26 @@ cgo ARBOR:
 #customers .row { margin: 0 auto; max-width: 1060px; }
 .home-row { max-width: 1060px !important; margin: 25px auto !important; }
 ```
+- Mobile sticky nav fixes
+```css
+/* nav was not appearing until you scrolled way down the page */
+/* Added to screen CSS - lines 509 - 511 */
+    #top-nav {
+        top: 0;
+    }
+/* li's set to inline-block and breaking functionality when you clicked on mobile */
+/* Added to screen css - lines 523 - 528 */
+@media screen and (max-width:640px) {
+    .top-bar-section ul li {
+        display: block;
+        text-align: left;
+    }
+}
+/* sticky nav was repositioning when you clicked to expand - mobile only */
+/* added to screen css - lines 188-192 */
+.top-bar.expanded.fixed {
+    position: fixed;
+    top: 0;
+    background: #fff;
+}    
+```
