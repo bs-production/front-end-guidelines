@@ -34,9 +34,9 @@ cgo SPROUT:
 - BBB badge homepage integration
 
 cgo ARBOR:  
-- CSS from dropdown needs to be updated with devtest48 CSS
+- dropdown needs to be updated with devtest48 
 - BBB badge homepage integration
-- Testimonials widget not full width (fix below)
+- Testimonials widget not full width (fixes added to devtest)
 ```css
 /* Added to Content Section */
 #homepage-content #page-wrap > .row { max-width: 100%; }
@@ -46,7 +46,7 @@ cgo ARBOR:
 #customers .row { margin: 0 auto; max-width: 1060px; }
 .home-row { max-width: 1060px !important; margin: 25px auto !important; }
 ```
-- Mobile sticky nav fixes
+- Mobile sticky nav fixes (fixes added to devtest)
 ```css
 /* nav was not appearing until you scrolled way down the page */
 /* Added to screen CSS - lines 509 - 511 */
@@ -61,6 +61,12 @@ cgo ARBOR:
         text-align: left;
     }
 }
+/* Left align dropdown links in nav */
+/* replaced lines 138-141 */
+.top-bar-section li:not(.has-form) a:not(.button) {
+    padding: 0 1.9375rem;
+    text-align: left;
+}
 /* sticky nav was repositioning when you clicked to expand - mobile only */
 /* added to screen css - lines 188-192 */
 .top-bar.expanded.fixed {
@@ -68,4 +74,12 @@ cgo ARBOR:
     top: 0;
     background: #fff;
 }    
+```
+- Header height added for mobile sizes (fixes added to devtest)
+```css
+/* header height was too shallow on smaller screens and cutting off logo */
+/* added lines 488-490 */
+#header {
+    height: 260px;
+}
 ```
