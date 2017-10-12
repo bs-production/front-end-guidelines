@@ -2,7 +2,7 @@
 2. Follow instructions here: https://www.google.com/recaptcha/admin#list
 
 
-```php
+
 <?php
 if (!empty($_POST)) {
   
@@ -285,4 +285,3 @@ $(document).ready(function(){
 
 </form>
 </div>
-```
