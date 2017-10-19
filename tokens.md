@@ -8,6 +8,8 @@
 
 [[custom_oc_footer]] - check output below
 
+[[site_broadcast]]  - for landinge pages that need the site broadcast
+
 ```txt
 [company] is an independent contractor and is not an affiliate of Owens Corning Roofing and Asphalt, LLC or its affiliated companies. THE PINK PANTHER&trade; &amp; &copy; 1964–2015 Metro-Goldwyn-Mayer Studios Inc. All Rights Reserved.
 ```
