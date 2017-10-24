@@ -1,7 +1,7 @@
 # Contractor Go!!
 
 ## Templates 
-- http://devtest47.basementsite.com/  - Sprout  
+- http://contractorgodev.basementsite.com - Sprout  
 - http://devtest48.basementsite.com/  - Arbor  
 - http://devtest49.basementsite.com/  - Hazel  
 
