@@ -69,7 +69,7 @@ Need a little extra Juice for your Free Estimate pages? Note the hidden input as
 
 ```php
 <?php
-// sent to any CRM
+// matchup up your fields with new source
   $data = array(
         'firstname'  => $_POST['form_logger_First_Name'],
         'lastname' => $_POST['form_logger_Last_Name'],
@@ -82,6 +82,7 @@ Need a little extra Juice for your Free Estimate pages? Note the hidden input as
     );
 
     $serialize = http_build_query($data);
+    //
     $request = curl_init('url here');
     curl_setopt($request, CURLOPT_POST, 1);
     curl_setopt($request, CURLOPT_POSTFIELDS, $serialize);
