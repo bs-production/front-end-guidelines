@@ -64,6 +64,37 @@ Need a little extra Juice for your Free Estimate pages? Note the hidden input as
 ```
 
 
+
+### Send Data To Another Source
+
+```php
+<?php
+// sent to any CRM
+  $data = array(
+        'firstname'  => $_POST['form_logger_First_Name'],
+        'lastname' => $_POST['form_logger_Last_Name'],
+        'phone1' => $_POST['form_logger_Phone'],
+        'email1' => $_POST['form_logger_Email_Address'],
+        'streetaddress' => $_POST['form_logger_Street'],
+        'city' => $_POST['form_logger_City'],
+        'state' => $_POST['form_logger_State'],
+        'zip' => $_POST['form_logger_Zip_Code']
+    );
+
+    $serialize = http_build_query($data);
+    $request = curl_init('url here');
+    curl_setopt($request, CURLOPT_POST, 1);
+    curl_setopt($request, CURLOPT_POSTFIELDS, $serialize);
+    curl_setopt($request, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($request, CURLOPT_SSL_VERIFYPEER, false);
+    $response = curl_exec($request);
+    curl_close($request);
+
+?>
+
+```
+
+
 ## Auto-update Lead Association in Portal  
 
 Need to add a "type of service" field to free estimate form that automatically changes association in portal Lead.
