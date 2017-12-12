@@ -9,10 +9,7 @@
 - https://www.gothrasher.com/ms-crawl-space.html?cache=0
 
 ## Landing Pages
-- https://www.gothrasher.com/omaha-egress-windows.html
-- https://www.gothrasher.com/gmail-radon.html
-- https://www.gothrasher.com/let-us-know.html?cache=0
-
+### PPC Ads
 - https://www.gothrasher.com/ppc-waterproofing.html
 - https://www.gothrasher.com/ppc-foundation.html
 - https://www.gothrasher.com/ppc-crawl-space.html
@@ -20,12 +17,17 @@
 - https://www.gothrasher.com/ppc-radon-mitigation.html
 - https://www.gothrasher.com/ppc-polylevel.html
 
+### Gmail Ads
 - https://www.gothrasher.com/gmail-lp.html
 - https://www.gothrasher.com/bowing-walls-gmail-lp.html
 - https://www.gothrasher.com/gmail-poly.html
+- https://www.gothrasher.com/gmail-radon.html
+
+
+### Randoms
 - https://www.gothrasher.com/sick-crawlspace.html
-
-
+- https://www.gothrasher.com/omaha-egress-windows.html
+- https://www.gothrasher.com/let-us-know.html?cache=0
 
 ## One Offs 
 - https://www.gothrasher.com/employee-referral.html
