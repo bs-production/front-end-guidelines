@@ -32,7 +32,7 @@ if (isset($_POST['signup']))
 	
 		mail($to, $subject, $message, $headers);
  
-
+              // send email to the customer
  		$to = $_POST['Email_Address']. "\r\n";
 
 	    $subject = 'Confirmation: Whitepaper'. "\r\n";
